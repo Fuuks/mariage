@@ -11,8 +11,10 @@
 
         <!-- Icon css link -->
         <link href="css/font-awesome.min.css" rel="stylesheet">
+         <link href="css/timeline.css" rel="stylesheet">
         <link href="vendors/elegant-icon/style.css" rel="stylesheet">
         <link href="vendors/themify-icon/themify-icons.css" rel="stylesheet">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -58,10 +60,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active"><a class="nav-link" href="index.html">Accueil</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Programmation de la journée</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Cartes d'invitations</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Formulaire de présence</a></li>
-                        <li class="nav-item"><a  href="contact-us.html">Infos Pratique</a></li> 
+                        <li class="nav-item"><a class="nav-link" href="programmation-journee.html">Programmation de la journée</a></li>
+                        <li class="nav-item"><a class="nav-link" href="formulaire.html">Formulaire de présence</a></li>
+                        <li class="nav-item"><a  href="informations-pratiques.html">Infos Pratiques</a></li> 
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contacts</a></li>
                     </ul>
                     
                 </div>
@@ -86,85 +88,70 @@
         <!--================Static Area =================-->
         <section class="static_area">
             <div class="container">
-                <div class="static_inner">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="static_main_content">
-
-                            	  <div class="static_text2">
-                                    <h3>Confirme ta présence !</h3>
-                                    <p>Que vous veniez ou non au mariage, c'est ici qu'il faut nous l'indiquer !</p>
-                                   
-                                </div>
-
-                               <form class="col-sm-9">
-	                                <div class="form-group row">
-									    <label for="inputPassword3" class="col-sm-2 col-form-label">Prénom</label>
-									    <div class="col-sm-10">
-									      <input type="password" class="form-control" id="inputPassword3" placeholder="Prénom">
-									    </div>
-									</div>
-									 <div class="form-group row">
-								    <label for="inputPassword3" class="col-sm-2 col-form-label">Nom</label>
-								    <div class="col-sm-10">
-								      <input type="password" class="form-control" id="inputPassword3" placeholder="Nom">
-								    </div>
-								  </div>
-
-								  <div class="form-group row">
-								    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-								    <div class="col-sm-10">
-								      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-								    </div>
-								  </div>
-								  <fieldset class="form-group">
-								    <div class="row">
-								      <legend class="col-form-label col-sm-2 pt-0">Alors</legend>
-								      <div class="col-sm-10">
-								        <div class="form-check">
-								          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-								          <label class="form-check-label" for="gridRadios1">
-								            Je serai présent(e)
-								          </label>
-								        </div>
-								        <div class="form-check">
-								          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-								          <label class="form-check-label" for="gridRadios2">
-								            Je ne pourrai pas être là
-								          </label>
-								        </div>
-								       
-								      </div>
-								    </div>
-								  </fieldset>
-								   <fieldset class="form-group">
-								    <div class="row">
-								      <legend class="col-form-label col-sm-2 pt-0"></legend>
-								      <div class="col-sm-10">
-								        <div class="form-check">
-								          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-								          <label class="form-check-label" for="gridRadios1">
-								            Pour 16h
-								          </label>
-								        </div>
-								        <div class="form-check">
-								          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-								          <label class="form-check-label" for="gridRadios2">
-								            Pour 19h
-								          </label>
-								        </div>
-								       
-								      </div>
-								    </div>
-								  </fieldset>
-								 
-								  <div class="form-group row">
-								    <div class="col-sm-10">
-								      <button type="submit" class="btn btn-primary">Envoyer</button>
-								    </div>
-								  </div>
-								</form>               
+            <h4>Timeline Style : Demo-12</h4>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main-timeline12">
+                        <div class="col-md-2 col-sm-4 timeline">
+                            <span class="timeline-icon">
+                                <i class="fa fa-home"></i>
+                            </span>
+                            <div class="border"></div>
+                            <div class="timeline-content">
+                                <h4 class="title">Mairie</h4>
+                                <p class="description">Lorem ipsum dolor sit amet, consectetur.</p>
                             </div>
+                        </div>
+                        <div class="col-md-2 col-sm-4 timeline">
+                            <div class="timeline-content">
+                                <h4 class="title">Photos</h4>
+                                <p class="description">Lorem ipsum dolor sit amet, consectetur.</p>
+                            </div>
+                            <div class="border"></div>
+                                <span class="timeline-icon">
+                                    <i class="fa fa-camera "></i>
+                                </span>
+                        </div>
+                        <div class="col-md-2 col-sm-4 timeline">
+                            <span class="timeline-icon">
+                                <i class="fa fa-heart-o"></i>
+                            </span>
+                            <div class="border"></div>
+                            <div class="timeline-content">
+                                <h4 class="title">Cérémonie Nuptiale</h4>
+                                <p class="description">Lorem ipsum dolor sit amet, consectetur.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 col-sm-4 timeline">
+                            <div class="timeline-content">
+                                <h4 class="title">Vin d'honneur</h4>
+                                <p class="description">Lorem ipsum dolor sit amet, consectetur.</p>
+                            </div>
+                            <div class="border"></div>
+                            <span class="timeline-icon">
+                                <i class="fa fa-glass"></i>
+                            </span>
+                        </div>
+                        <div class="col-md-2 col-sm-4 timeline">
+                            <span class="timeline-icon">
+                                <i class="fa fa-video-camera"></i>
+                            </span>
+                            <div class="border"></div>
+                            <div class="timeline-content">
+                                <h4 class="title">Photos</h4>
+                                <p class="description">Lorem ipsum dolor sit amet, consectetur.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-4 timeline">
+                            <div class="timeline-content">
+                                <h4 class="title">Soirée</h4>
+                                <p class="description">Lorem ipsum dolor sit amet, consectetur.</p>
+                            </div>
+                            <div class="border"></div>
+                            <span class="timeline-icon">
+                                <i class="fa fa-birthday-cake"></i>
+                            </span>
                         </div>
                     </div>
                 </div>

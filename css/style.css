@@ -34,6 +34,19 @@ Table of Content:
 /*----------------------------------------------------*/
 /*font Variables*/
 /*Color Variables*/
+
+.img-hotels{
+  height: 500px;
+}
+
+h1,h2,h3,h4,h5{
+  color: #c28484!important;
+}
+.separation{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display|Poppins:300,400,500,600,700,800,900");
 .col-md-offset-right-1, .col-lg-offset-right-1 {
   margin-right: 8.33333333%;
@@ -243,7 +256,7 @@ i:before {
 }
 
 .main_menu_area .navbar .navbar-nav li:hover a, .main_menu_area .navbar .navbar-nav li.active a {
-  color: #2bc0a4;
+  color: #c28484;
 }
 
 @media (min-width: 992px) {
