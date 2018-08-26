@@ -7,12 +7,14 @@
 
         <link rel="icon" href="img/fav-icon.png" type="image/x-icon" />
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Mariage Béa & Fuki</title>
+        <title>Mariage Fuki&Béa</title>
 
         <!-- Icon css link -->
         <link href="css/font-awesome.min.css" rel="stylesheet">
+         <link href="css/timeline.css" rel="stylesheet">
         <link href="vendors/elegant-icon/style.css" rel="stylesheet">
         <link href="vendors/themify-icon/themify-icons.css" rel="stylesheet">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -49,18 +51,19 @@
         <!--================Header Menu Area =================-->
         <header class="main_menu_area">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-               <a class="navbar-brand" style="color: white;" href="#">Mariage Fuki&Béa</a>
+                <a class="navbar-brand" style="color: white;" href="index.html">Mariage Fuki&Béa</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item "><a class="nav-link" href="index.html">Accueil</a></li>
-                        <li class="nav-item"><a class="nav-link" href="programmation-journee.html">Programmation de la journée</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="programmation-journee.html">Programmation de la journée</a></li>
                         <li class="nav-item"><a class="nav-link" href="formulaire.html">Formulaire de présence</a></li>
                         <li class="nav-item"><a  href="informations-pratiques.html">Infos Pratiques</a></li> 
-                        <li class="nav-item active"><a class="nav-link" href="contact.html">Contacts</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contacts</a></li>
                     </ul>
                     
                 </div>
@@ -72,72 +75,18 @@
         <section class="banner_area">
             <div class="container">
                 <div class="banner_text_inner">
-                    <h4>Contactez nous</h4>
-                    <h5>Si vous avez des questions sur l'organisation contactez nous.</h5>
+                    <h4>Pour le moment la programmation de la journée n'est pas disponible.<br>C'est pour bientôt, patience :).</h4>
+                    <ul>
+                        <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Accueil</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Formulaire</a></li>
+                    </ul>
                 </div>
             </div>
         </section>
         <!--================End Banner Area =================-->
 
-        <!--================Contact Us Area =================-->
-        <section class="contact_us_area">
-            <div class="container">
-              
-                <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d83805.57186970861!2d1.9274813623275335!3d48.973968801101414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x47e68c689d65c593%3A0x123e5d58bbbb5848!2sgoogle+maps+vernouillet+la+scene!3m2!1d48.97399!2d1.9975209999999999!5e0!3m2!1sfr!2sfr!4v1523526629332" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                
-                <div class="contact_details_inner">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="contact_text">
-                                <div class="main_title">
-                                    <h2>Contactez nous</h2>
-                                    <p>En cas de question sur l'organisation du mariage n'hésitez pas à nous contacter par mail</p>
-                                </div>
-                                <div class="contact_d_list">
-                                    <div class="contact_d_list_item">
-                                        <a href="#">fukiwony@gmail.com</a>
-                                    </div>
-                                    <div class="contact_d_list_item">
-                                        <p>6 Chemin du Bout Large,<br />  78540 Vernouillet, France</p>
-                                    </div>
-                                    <div class="contact_d_list_item">
-                                        <p>16h00-5h00 Samedi 6 Octobre</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="contact_form">
-                               
-                                <form class="contact_us_form row" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
-                                    <div class="form-group col-lg-12">
-                                        <input type="text" class="form-control" id="name" name="name" placeholder="Nom">
-                                    </div>
-                                    <div class="form-group col-lg-12">
-                                        <input type="email" class="form-control" id="email" name="email" placeholder="Votre email">
-                                    </div>
-                                    <div class="form-group col-lg-12">
-                                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Sujet">
-                                    </div>
-                                    <div class="form-group col-lg-12">
-                                        <textarea class="form-control" name="message" id="message" rows="1" placeholder="Message"></textarea>
-                                    </div>
-                                    <div class="form-group col-md-12">
-                                          
-                                        <button class="btn btn-secondary submit_btn" type="button">Envoyer</button>
-                                    
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--================End Contact Us Area =================-->
-
         <!--================Footer Area =================-->
-       <footer class="footer_area">
+             <footer class="footer_area">
             <div class="footer_widgets_area">
                 <div class="container">
                     <div class="f_widgets_inner row">    
@@ -171,49 +120,12 @@
                     <div class="float-md-left">
                         <h5>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></h5>
                     </div>
-                    <div class="float-md-right">
-                        <ul class="nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contactez-nous</a>
-                            </li>
-                        </ul>
-                    </div>
                 </div>
             </div>
         </footer>
         <!--================End Footer Area =================-->
 
-        <!--================Contact Success and Error message Area =================-->
-        <div id="success" class="modal modal-message fade" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <i class="fa fa-close"></i>
-                        </button>
-                        <h2>Thank you</h2>
-                        <p>Your message is successfully sent...</p>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <!-- Modals error -->
-
-        <div id="error" class="modal modal-message fade" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <i class="fa fa-close"></i>
-                        </button>
-                        <h2>Sorry !</h2>
-                        <p> Something went wrong </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--================End Contact Success and Error message Area =================-->
 
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -240,14 +152,6 @@
         <!--Tweets-->
         <script src="vendors/tweet/tweetie.min.js"></script>
         <script src="vendors/tweet/script.js"></script>
-        <!--gmaps Js-->
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-        <script src="js/gmaps.min.js"></script>
-
-        <!-- contact js -->
-        <script src="js/jquery.form.js"></script>
-        <script src="js/jquery.validate.min.js"></script>
-        <script src="js/contact.js"></script>
 
         <script src="js/theme.js"></script>
     </body>
