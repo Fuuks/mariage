@@ -1,24 +1,35 @@
 <?php
 
+    $to = "fukiwony@gmail.com";
+    $from = $_REQUEST['email'];
+    $name = $_REQUEST['name'];
+    $subject = $_REQUEST['subject'];
+    $cmessage = $_REQUEST['message'];
 
+    $headers = "From: $from";
+	$headers = "From: " . $from . "\r\n";
+	$headers .= "Reply-To: ". $from . "\r\n";
+	$headers .= "MIME-Version: 1.0\r\n";
+	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
+    $logo = 'http://wethemez.com/test-html/consultplus/img/logo-black.png';
+   
+    $subject = "Mariage Fuki et Béa"
 
-     // Plusieurs destinataires
-     $to  = 'fukiwony@gmail.com'; // notez la virgule
+	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
+	$body .= "<table style='width: 100%;'>";
+	$body .= "<thead style='text-align: center;'><tr><td style='border:none;' colspan='2'>";
+	$body .= "<br><br>";
+	$body .= "</td></tr></thead><tbody><tr>";
+	$body .= "<td style='border:none;'><strong>Name:</strong> {$name}</td>";
+	$body .= "<td style='border:none;'><strong>Email:</strong> {$from}</td>";
+	$body .= "</tr>";
+	$body .= "<tr><td style='border:none;'><strong>Subject:</strong> {$csubject}</td></tr>";
+	$body .= "<tr><td></td></tr>";
+	$body .= "<tr><td colspan='2' style='border:none;'>{$cmessage}</td></tr>";
+	$body .= "</tbody></table>";
+	$body .= "</body></html>";
 
-     // Sujet
-     $subject = 'Calendrier des anniversaires pour Août';
-
-     // message
-     $message = 'Bonjour je mapelle fuki';
-
-     // Pour envoyer un mail HTML, l'en-tête Content-type doit être défini
-     $headers[] = 'MIME-Version: 1.0';
-     $headers[] = 'Content-type: text/html; charset=iso-8859-1';
-
-     
-     
-     // Envoi
-     mail($to, $subject, $message, implode("\r\n", $headers));
+    $send = mail($to, $subject, $body, $headers);
 
 ?>
