@@ -1,37 +1,41 @@
 <?php
 
-    $to = "fukiwony@gmail.com";
-    $from = $_REQUEST['email'];
-    $name = $_REQUEST['name'];
-    $subject = $_REQUEST['subject'];
-    $number = $_REQUEST['number'];
-    $cmessage = $_REQUEST['message'];
+     // Plusieurs destinataires
+     $to  = 'fukiwony@gmail.com'; // notez la virgule
 
-    $headers = "From: $from";
-	$headers = "From: " . $from . "\r\n";
-	$headers .= "Reply-To: ". $from . "\r\n";
-	$headers .= "MIME-Version: 1.0\r\n";
-	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+     // Sujet
+     $subject = 'Calendrier des anniversaires pour Août';
 
-    $subject = "You have a message from your Creative Agency.";
+     // message
+     $message = '
+     <html>
+      <head>
+       <title>Calendrier des anniversaires pour Août</title>
+      </head>
+      <body>
+       <p>Voici les anniversaires à venir au mois d\'Août !</p>
+       <table>
+        <tr>
+         <th>Personne</th><th>Jour</th><th>Mois</th><th>Année</th>
+        </tr>
+        <tr>
+         <td>Josiane</td><td>3</td><td>Août</td><td>1970</td>
+        </tr>
+        <tr>
+         <td>Emma</td><td>26</td><td>Août</td><td>1973</td>
+        </tr>
+       </table>
+      </body>
+     </html>
+     ';
 
-    $logo = 'http://wethemez.com/test-html/consultplus/img/logo-black.png';
-    $link = '#';
+     // Pour envoyer un mail HTML, l'en-tête Content-type doit être défini
+     $headers[] = 'MIME-Version: 1.0';
+     $headers[] = 'Content-type: text/html; charset=iso-8859-1';
 
-	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
-	$body .= "<table style='width: 100%;'>";
-	$body .= "<thead style='text-align: center;'><tr><td style='border:none;' colspan='2'>";
-	$body .= "<a href='{$link}'><img src='{$logo}' alt=''></a><br><br>";
-	$body .= "</td></tr></thead><tbody><tr>";
-	$body .= "<td style='border:none;'><strong>Name:</strong> {$name}</td>";
-	$body .= "<td style='border:none;'><strong>Email:</strong> {$from}</td>";
-	$body .= "</tr>";
-	$body .= "<tr><td style='border:none;'><strong>Subject:</strong> {$csubject}</td></tr>";
-	$body .= "<tr><td></td></tr>";
-	$body .= "<tr><td colspan='2' style='border:none;'>{$cmessage}</td></tr>";
-	$body .= "</tbody></table>";
-	$body .= "</body></html>";
+     
 
-    $send = mail($to, $subject, $body, $headers);
+     // Envoi
+     mail($to, $subject, $message, implode("\r\n", $headers));
 
 ?>
