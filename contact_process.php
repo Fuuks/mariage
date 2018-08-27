@@ -1,7 +1,7 @@
 <?php
 
     $to = "fukiwony@gmail.com";
-    $from = $_REQUEST['email'];
+    $from = "cgi-mailer@kundenserver.de";
     $name = $_REQUEST['name'];
     $subject = $_REQUEST['subject'];
     $cmessage = $_REQUEST['message'];
@@ -15,6 +15,7 @@
     $logo = 'http://wethemez.com/test-html/consultplus/img/logo-black.png';
    
     $subject = "Mariage Fuki et Béa";
+    $from2 = $_REQUEST['email'];
 
 	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
 	$body .= "<table style='width: 100%;'>";
@@ -22,7 +23,7 @@
 	$body .= "<br><br>";
 	$body .= "</td></tr></thead><tbody><tr>";
 	$body .= "<td style='border:none;'><strong>Name:</strong> {$name}</td>";
-	$body .= "<td style='border:none;'><strong>Email:</strong> {$from}</td>";
+	$body .= "<td style='border:none;'><strong>Email:</strong> {$from2}</td>";
 	$body .= "</tr>";
 	$body .= "<tr><td style='border:none;'><strong>Subject:</strong> {$csubject}</td></tr>";
 	$body .= "<tr><td></td></tr>";
