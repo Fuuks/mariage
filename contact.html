@@ -109,7 +109,7 @@
                         <div class="col-lg-6">
                             <div class="contact_form">
                                
-                                <form class="contact_us_form row" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                                <form class="contact_us_form row" action="contact_process.php" method="post" id="contactForm">
                                     <div class="form-group col-lg-12">
                                         <input type="text" class="form-control" id="name" name="name" placeholder="Nom">
                                     </div>
@@ -124,7 +124,7 @@
                                     </div>
                                     <div class="form-group col-md-12">
                                           
-                                        <button class="btn btn-secondary submit_btn" type="button">Envoyer</button>
+                                        <input class="btn btn-secondary submit_btn" value="Envoyer" id="fuki" type="submit"/>
                                     
                                     </div>
                                 </form>
@@ -246,8 +246,6 @@
 
         <!-- contact js -->
         <script src="js/contact.js"></script>
-        <script src="js/jquery.form.js"></script>
-        <script src="js/jquery.validate.min.js"></script>
        
 
         <script src="js/theme.js"></script>
