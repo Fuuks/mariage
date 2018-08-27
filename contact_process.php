@@ -1,7 +1,7 @@
 <?php
 
     $to = "fukiwony@gmail.com";
-    $from = "cgi-mailer@kundenserver.de";
+    $from = "fuki-mailer@fuki.de";
     $name = $_REQUEST['name'];
     $subject = $_REQUEST['subject'];
     $cmessage = $_REQUEST['message'];
@@ -22,10 +22,10 @@
 	$body .= "<thead style='text-align: center;'><tr><td style='border:none;' colspan='2'>";
 	$body .= "<br><br>";
 	$body .= "</td></tr></thead><tbody><tr>";
-	$body .= "<td style='border:none;'><strong>Name:</strong> {$name}</td>";
-	$body .= "<td style='border:none;'><strong>Email:</strong> {$from2}</td>";
+	$body .= "<td style='border:none;'><strong>Nom:</strong> {$name}</td>";
+	$body .= "<td style='border:none;'><strong>Mail:</strong> {$from2}</td>";
 	$body .= "</tr>";
-	$body .= "<tr><td style='border:none;'><strong>Subject:</strong> {$csubject}</td></tr>";
+	$body .= "<tr><td style='border:none;'><strong>Message:</strong> {$csubject}</td></tr>";
 	$body .= "<tr><td></td></tr>";
 	$body .= "<tr><td colspan='2' style='border:none;'>{$cmessage}</td></tr>";
 	$body .= "</tbody></table>";
