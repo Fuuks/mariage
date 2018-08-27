@@ -14,7 +14,7 @@
 
     $logo = 'http://wethemez.com/test-html/consultplus/img/logo-black.png';
    
-    $subject = "Mariage Fuki et Béa"
+    $subject = "Mariage Fuki et Béa";
 
 	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
 	$body .= "<table style='width: 100%;'>";
