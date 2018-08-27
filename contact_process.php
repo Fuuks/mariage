@@ -1,5 +1,7 @@
-
 <?php
+
+
+	echo "toto";
 
      // Plusieurs destinataires
      $to  = 'fukiwony@gmail.com'; // notez la virgule
