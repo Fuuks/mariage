@@ -94,26 +94,26 @@
                                 </div>
                                 <div class="separation"></div>
 
-                               <form class="col-sm-9" action"formulaire.php" method="post">
+                               <form class="col-sm-9" action="formulaire.php" method="post">
 
                                     <div class="form-group row">
                                         <label for="inputPassword3" class="col-sm-2 col-form-label">Nom</label>
                                         <div class="col-sm-10">
-                                          <input type="password" class="form-control" id="inputPassword3" placeholder="Nom">
+                                          <input type="text" class="form-control" id="inputPassword3" name="nom" placeholder="Nom">
                                         </div>
                                       </div>
 
 	                                <div class="form-group row">
 									    <label for="inputPassword3" class="col-sm-2 col-form-label">Prénom</label>
 									    <div class="col-sm-10">
-									      <input type="password" class="form-control" id="inputPassword3" placeholder="Prénom">
+									      <input type="text" name="prenom" class="form-control" id="inputPassword3" placeholder="Prénom">
 									    </div>
 									</div>
 
 								  <div class="form-group row">
 								    <label for="inputEmail3" class="col-sm-2 col-form-label">Numéro de portable</label>
 								    <div class="col-sm-10">
-								      <input type="text" class="form-control" pattern="^(?:0|\(?\+33\)?\s?|0033\s?)[1-79](?:[\.\-\s]?\d\d){4}$" id="inputEmail3" placeholder="Numéro de portable">
+								      <input type="text" class="form-control" pattern="^(?:0|\(?\+33\)?\s?|0033\s?)[1-79](?:[\.\-\s]?\d\d){4}$" name="portable" id="inputEmail3" placeholder="Numéro de portable">
 								    </div>
 								  </div>
 								  <fieldset class="form-group">
@@ -141,13 +141,13 @@
 								      <legend class="col-form-label col-sm-2 pt-0"></legend>
 								      <div class="col-sm-10">
 								        <div class="form-check">
-								          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+								          <input class="form-check-input" type="radio" name="horaire" id="gridRadios1" value="16h" checked>
 								          <label class="form-check-label" for="gridRadios1">
 								            Pour 16h
 								          </label>
 								        </div>
 								        <div class="form-check">
-								          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+								          <input class="form-check-input" type="radio" name="horaire" id="gridRadios2" value="19h">
 								          <label class="form-check-label" for="gridRadios2">
 								            Pour 19h
 								          </label>
@@ -160,15 +160,13 @@
                                   <div class="form-group row" id="nb_people">
                                       <label for="example-number-input" class="col-2 col-form-label">Nombre de personnes</label>
                                       <div class="col-10">
-                                        <input class="form-control" type="number" min="0" id="example-number-input">
+                                        <input class="form-control" name="nb_personnes" type="number" min="0" id="example-number-input">
                                       </div>
                                     </div>
 								 
-								  <div class="form-group row">
-								    <div class="col-sm-10">
-								      <button type="submit" class="btn btn-primary">Envoyer</button>
-								    </div>
-								  </div>
+								
+								      <input type="submit" class="btn btn-primary" value="Envoyer"/>
+								 
 								</form>               
                             </div>
                         </div>
