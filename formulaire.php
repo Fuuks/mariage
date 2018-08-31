@@ -15,12 +15,12 @@
 	//	die('Erreur : ' . $e->getMessage());
 	}*/
 
-	echo $_POST['nom'];
-	echo $_POST['prenom'];
-    echo $_POST['portable'];
-    echo $_POST['present'];
-    echo $_POST['horaire'];
-    echo $_POST['nb_personnes'];
+	$nom = $_POST['nom'];
+	$prenom = $_POST['prenom'];
+    $portable =  $_POST['portable'];
+    $present = $_POST['present'];
+    $horaire = $_POST['horaire'];
+    $nb_personnes = $_POST['nb_personnes'];
 
 
 //    if(){
@@ -34,6 +34,6 @@
 	//$bdd->exec('INSERT INTO jeux_video(nom, possesseur, console, prix, nbre_joueurs_max, commentaires) VALUES());
 
 
-    //echo $to;
+    header('Location:formulaire-presence.php?present='.$present); 
   
 ?>
