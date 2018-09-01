@@ -81,7 +81,52 @@
 
         <!--================Contact Us Area =================-->
         <section class="contact_us_area">
+            
+
+
             <div class="container">
+
+                     <?php
+
+                                if(isset($_GET['send'])){
+                                    $send = $_GET['send'];
+                                   
+                                }else{
+
+                                    $send = null;
+                                }
+
+
+                                if($send=='oui'){
+
+                            ?>
+
+
+                                <div class="alert alert-success alert-dismissible fade show text-center" role="alert">
+                                  <strong>Mail envoyé avec succès !</strong> On te répondra au plus vite !
+                                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                            <?php
+
+                                }else if($send=='non'){
+                            ?>
+
+                                <div class="alert alert-danger alert-dismissible fade show text-center" role="alert">
+                                  <strong>Echec du mail :/.</strong> N'hésite pas à envoyer un mail à partir de ta messagerie : fukiwony@gmail.com .
+                                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+
+                            <?php
+
+                                }else{
+
+                                }       
+                            ?>
+
               
                 <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d83805.57186970861!2d1.9274813623275335!3d48.973968801101414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x47e68c689d65c593%3A0x123e5d58bbbb5848!2sgoogle+maps+vernouillet+la+scene!3m2!1d48.97399!2d1.9975209999999999!5e0!3m2!1sfr!2sfr!4v1523526629332" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                 

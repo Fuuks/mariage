@@ -33,6 +33,11 @@
 
     $send = mail($to, $subject, $body, $headers);
 
-     header('Location: '); 
+  	if($send){
+  		$send = 'oui';
+  	}else{
+  		$send = 'non';
+  	}
+    header('Location:contact.php?send='.$send); 
 
 ?>

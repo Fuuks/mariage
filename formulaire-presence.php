@@ -121,22 +121,8 @@
 
                             <?php
 
-                                }else{
-
-
+                                } 
                             ?>
-                            <div class="alert alert-warning alert-dismissible fade show text-center" role="alert">
-                                  <strong>Tu as un souci avec la connexion contacte nous par mail.</strong> 
-                                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                  </button>
-                                </div>
-
-                            <?php
-
-                                }
-                            ?>
-
                             	  <div class="static_text2">
                                     <h3>Confirme ta présence !</h3>
                                     <p>Partageras-tu ce moment de joie avec nous ?</p>
