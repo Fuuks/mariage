@@ -37,7 +37,7 @@
 
 		
 		if($res == 1){
-			header('Location:formulaire-presence.php?present='.$present); 
+			Header('Location:formulaire-presence.php?present='.$present); 
 		}
 		
 	 }
