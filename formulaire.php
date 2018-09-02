@@ -26,10 +26,10 @@
 	echo $prenom;
 
 	 if($present == "oui"){
-    	$bdd->exec('INSERT INTO inscription(nom, prenom, portable, present, horaire, nb_personnes) VALUES($nom,$prenom,$portable,$present,$horaire,$nb_personnes)');
+    	$conn->exec('INSERT INTO inscription(nom, prenom, portable, present, horaire, nb_personnes) VALUES($nom,$prenom,$portable,$present,$horaire,$nb_personnes)');
 
     }else{
-		$bdd->exec('INSERT INTO inscription(nom, prenom, portable, present,) VALUES($nom,$prenom,$portable,$present)');
+		$conn->exec('INSERT INTO inscription(nom, prenom, portable, present,) VALUES($nom,$prenom,$portable,$present)');
  	}
     
     header('Location:formulaire-presence.php?present='.$present); 
