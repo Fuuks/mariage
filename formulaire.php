@@ -19,47 +19,15 @@
     $present = $_POST['present'];
     $horaire = $_POST['horaire'];
 	$nb_personnes = $_POST['nb_personnes'];
-	
 
 	if($present == "oui"){
 		$req = $conn->prepare('INSERT INTO inscription VALUES (?, ?, ?, ?, ?,?)');
-
 		$req->execute(array($nom,$prenom,$portable,$present,$horaire,$nb_personnes));
-		header('Location:formulaire-presence.php?present='.$present);
 
 	}else{
 		$req = $conn->prepare('INSERT INTO inscription VALUES (?, ?, ?, ?)');
-
-		$req->execute(array($nom,$prenom,$portable,$present));
-		header('Location:formulaire-presence.php?present='.$present);
+		$req->execute(array($nom,$prenom,$portable,$present));	
 	}
 
-/*
-	echo $nom;
-	echo $prenom;
-
-	 if($present == "oui"){
-
-		$req = $conn->prepare('INSERT INTO inscription VALUES (?, ?, ?, ?, ?,?)');
-
-		$req->execute(array($nom,$prenom,$portable,$present,$horaire,$nb_personnes));
-		header('Location:index.html');
-		
-    }else{
-		$sql ="INSERT INTO inscription (nom,prenom,portable,present) VALUES ('$nom','$prenom','$portable','$present')";
-		$res = $conn->exec($sql);
-
-		
-		if($res == 1){
-			Header('Location:formulaire-presence.php?present='.$present); 
-		}
-		
-	 }
-	 
-	 echo $res;**/
-
 	 header('Location:formulaire-presence.php?present='.$present);
-    
-   
-  
 ?>
