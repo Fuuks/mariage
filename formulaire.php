@@ -1,7 +1,7 @@
 <?php
 
 
-	try {
+/*	try {
 		$host ="mysql:host=db752003822.db.1and1.com;dbname=db752003822";
 		$user = "dbo752003822";
 		
@@ -42,7 +42,9 @@
 		
 	 }
 	 
-	 echo $res;
+	 echo $res;**/
+
+	 header('Location:index.html');
     
    
   
