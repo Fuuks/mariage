@@ -30,7 +30,7 @@
 	
 		if($conn->exec($sql)){
 		
-			header("Location: http://fuki-bea.fr/");
+			header('Location: http://fuki-bea.fr/');
 		}
     }else{
 		$sql ="INSERT INTO inscription (nom,prenom,portable,present) VALUES ('$nom','$prenom','$portable','$present')";
