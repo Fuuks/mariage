@@ -26,13 +26,15 @@
 	echo $prenom;
 
 	 if($present == "oui"){
-		$sql ="INSERT INTO inscription VALUES ('$nom','$prenom','$portable','$present','$horaire','$nb_personnes')";
-	
-		if($conn->exec($sql)){
+
+		$req = $conn->prepare('INSERT INTO inscription VALUES (?, ?, ?, ?, ?,?)');
+
+		$req->execute(array($nom,$prenom,$portable,$present,$horaire,$nb_personnes));
+
+
 		
-			$conn->close();
 			header('Location:index.html');
-		}
+		
     }else{
 		$sql ="INSERT INTO inscription (nom,prenom,portable,present) VALUES ('$nom','$prenom','$portable','$present')";
 		$res = $conn->exec($sql);
