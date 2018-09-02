@@ -194,7 +194,7 @@
 								  </fieldset>
 
                                   <div class="form-group row" id="nb_people">
-                                      <label for="example-number-input" class="col-2 col-form-label">Nombre de personnes en plus (si ajout en plus nous avertir avons pour confirmer)</label>
+                                      <label for="example-number-input" class="col-2 col-form-label">Nombre de personnes en <strong>plus</strong> (si ajout en plus nous avertir <strong>avant</strong> pour confirmer)</label>
                                       <div class="col-10">
                                         <input class="form-control" name="nb_personnes" type="number" min="0" id="example-number-input">
                                       </div>
