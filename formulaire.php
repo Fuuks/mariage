@@ -31,6 +31,7 @@
 
 		if($res==1){
 			header('Location:formulaire-presence.php?present='.$present); 
+			echo "toto";
 		}
     }else{
 		$sql ="INSERT INTO inscription (nom,prenom,portable,present) VALUES ('$nom','$prenom','$portable','$present')";
