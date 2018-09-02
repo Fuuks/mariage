@@ -27,10 +27,9 @@
 
 	 if($present == "oui"){
 		$sql ="INSERT INTO inscription VALUES ('$nom','$prenom','$portable','$present','$horaire','$nb_personnes')";
-		$res = $conn->exec($sql);
-
-		if($res==1){
-			$conn->closeCursor();
+	
+		if($conn->exec($sql)){
+		
 			header("Location: http://fuki-bea.fr/");
 		}
     }else{
