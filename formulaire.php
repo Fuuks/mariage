@@ -30,7 +30,7 @@
 	
 		if($conn->exec($sql)){
 		
-			mysql_close($conn);
+			$conn->close();
 			header('Location:index.html');
 		}
     }else{
