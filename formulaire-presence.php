@@ -135,21 +135,21 @@
                                     <div class="form-group row">
                                         <label for="inputPassword3" class="col-sm-2 col-form-label">Nom</label>
                                         <div class="col-sm-10">
-                                          <input type="text" class="form-control" id="inputPassword3" name="nom" placeholder="Nom">
+                                          <input type="text" class="form-control" id="inputPassword3" name="nom" placeholder="Nom" required>
                                         </div>
                                       </div>
 
 	                                <div class="form-group row">
 									    <label for="inputPassword3" class="col-sm-2 col-form-label">Prénom</label>
 									    <div class="col-sm-10">
-									      <input type="text" name="prenom" class="form-control" id="inputPassword3" placeholder="Prénom">
+									      <input type="text" name="prenom" class="form-control" id="inputPassword3" placeholder="Prénom" required> 
 									    </div>
 									</div>
 
 								  <div class="form-group row">
 								    <label for="inputEmail3" class="col-sm-2 col-form-label">Numéro de portable</label>
 								    <div class="col-sm-10">
-								      <input type="text" class="form-control" pattern="^(?:0|\(?\+33\)?\s?|0033\s?)[1-79](?:[\.\-\s]?\d\d){4}$" name="portable" id="inputEmail3" placeholder="Numéro de portable">
+								      <input type="text" class="form-control" pattern="^(?:0|\(?\+33\)?\s?|0033\s?)[1-79](?:[\.\-\s]?\d\d){4}$" name="portable" id="inputEmail3" placeholder="Numéro de portable" required>
 								    </div>
 								  </div>
 								  <fieldset class="form-group">

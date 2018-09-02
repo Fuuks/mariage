@@ -156,16 +156,16 @@
                                
                                 <form class="contact_us_form row" action="contact_process.php" method="post" id="contactForm">
                                     <div class="form-group col-lg-12">
-                                        <input type="text" class="form-control" id="name" name="name" placeholder="Nom">
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Nom" required>
                                     </div>
                                     <div class="form-group col-lg-12">
-                                        <input type="email" class="form-control" id="email" name="email" placeholder="Votre email">
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="Votre email" required>
                                     </div>
                                     <div class="form-group col-lg-12">
                                         <input type="text" class="form-control" id="subject" name="subject" placeholder="Sujet">
                                     </div>
                                     <div class="form-group col-lg-12">
-                                        <textarea class="form-control" name="message" id="message" rows="1" placeholder="Message"></textarea>
+                                        <textarea class="form-control" name="message" id="message" rows="1" placeholder="Message" required></textarea>
                                     </div>
                                     <div class="form-group col-md-12">
                                           
