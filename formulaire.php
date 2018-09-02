@@ -26,10 +26,10 @@
 	echo $prenom;
 
 	 if($present == "oui"){
-		$sql ='INSERT INTO inscription(nom, prenom, portable, present, horaire, nb_personnes) VALUES("papa,"test","065948394","oui","19h",4)';
+		$sql ='INSERT INTO inscription VALUES ("papa,"test","065948394","oui","19h","4")';
 		$conn->exec($sql);
     }else{
-		$conn->exec('INSERT INTO inscription(nom, prenom, portable, present,) VALUES($nom,$prenom,$portable,$present)');
+		$conn->exec('INSERT INTO inscription(nom, prenom, portable, present,) VALUES ($nom,$prenom,$portable,$present)');
  	}
     
     header('Location:formulaire-presence.php?present='.$present); 
