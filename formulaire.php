@@ -8,7 +8,7 @@
 		$passwd = "Jpgatien1993?";
 
 		$conn = new PDO($host, $user, $passwd);
-	
+		$conn->exec('SET NAMES utf8');
 	} catch ( PDOException $e ) {
 		die( 'Connection failed: ' . $e->getMessage() );
 	}
