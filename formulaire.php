@@ -32,8 +32,7 @@
 		if($res==1){
 
 			header('Location:index.html'); 
-			
-			echo "toto";
+			exit();
 		}
     }else{
 		$sql ="INSERT INTO inscription (nom,prenom,portable,present) VALUES ('$nom','$prenom','$portable','$present')";
