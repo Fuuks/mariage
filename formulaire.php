@@ -1,18 +1,17 @@
 <?php
 
 
-	try{
-		$host ="db752003822.db.1and1.com";
+	try {
+		$host ="mysql:host=db752003822.db.1and1.com;dbname=db752003822";
 		$user = "dbo752003822";
-		$bdd = "db752003822";
+		
 		$passwd = "Jpgatien1993?";
-
-		$bdd = new PDO('$host;dbname=$bdd;charset=utf8',$user,$passwd);
-	}
-	catch (Exception $e)
-	{
-
-		die('Erreur : ' . $e->getMessage());
+		
+		$conn = new PDO($host, $user, $passwd);
+		$conn->setAttribute( PDO::ATTR_PERSISTENT, TRUE );
+		$conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
+	} catch ( PDOException $e ) {
+		die( 'Connection failed: ' . $e->getMessage() );
 	}
 
 	$nom = $_POST['nom'];
