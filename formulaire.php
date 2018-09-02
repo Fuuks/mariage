@@ -2,7 +2,7 @@
 
 
 	try{
-		$host ="mysql:host=db752003822.db.1and1.com";
+		$host ="db752003822.db.1and1.com";
 		$user = "dbo752003822";
 		$bdd = "db752003822";
 		$passwd = "Jpgatien1993?";
