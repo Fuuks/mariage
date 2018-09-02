@@ -26,7 +26,7 @@
 	echo $prenom;
 
 	 if($present == "oui"){
-		$sql ='INSERT INTO inscription VALUES ("$nom","$prenom","$portable","$present","$horaire","$nb_personnes")';
+		$sql ='INSERT INTO inscription VALUES ($nom,$prenom,$portable,$present,$horaire,$nb_personnes)';
 		$conn->exec($sql);
     }else{
 		$conn->exec('INSERT INTO inscription(nom, prenom, portable, present,) VALUES ($nom,$prenom,$portable,$present)');
