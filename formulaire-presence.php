@@ -113,7 +113,7 @@
                             ?>
 
                                 <div class="alert alert-danger alert-dismissible fade show text-center" role="alert">
-                                  <strong>Dommage tu ne seras pas présent :/.</strong> En espérant te voir une prochaine fois ;).
+                                  <strong>Dommage tu ne seras pas présent : / </strong> En espérant te voir une prochaine fois ;)
                                   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                   </button>
