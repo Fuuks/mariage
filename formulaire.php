@@ -58,7 +58,7 @@
 	 
 	 echo $res;**/
 
-	 header('Location:index.html');
+	 header('Location:formulaire-presence.php?present='.$present);
     
    
   
