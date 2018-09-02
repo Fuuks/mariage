@@ -8,8 +8,7 @@
 		$passwd = "Jpgatien1993?";
 
 		$conn = new PDO($host, $user, $passwd);
-		$conn->setAttribute( PDO::ATTR_PERSISTENT, TRUE );
-		$conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
+	
 	} catch ( PDOException $e ) {
 		die( 'Connection failed: ' . $e->getMessage() );
 	}
@@ -30,10 +29,7 @@
 		$req = $conn->prepare('INSERT INTO inscription VALUES (?, ?, ?, ?, ?,?)');
 
 		$req->execute(array($nom,$prenom,$portable,$present,$horaire,$nb_personnes));
-
-
-		
-			header('Location:index.html');
+		header('Location:index.html');
 		
     }else{
 		$sql ="INSERT INTO inscription (nom,prenom,portable,present) VALUES ('$nom','$prenom','$portable','$present')";
