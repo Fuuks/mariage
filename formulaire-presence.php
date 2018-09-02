@@ -179,13 +179,13 @@
 								        <div class="form-check">
 								          <input class="form-check-input" type="radio" name="horaire" id="gridRadios1" value="16h" checked>
 								          <label class="form-check-label" for="gridRadios1">
-								            Pour 16h
+								            Pour 16h (Cérémonie nuptiale)
 								          </label>
 								        </div>
 								        <div class="form-check">
 								          <input class="form-check-input" type="radio" name="horaire" id="gridRadios2" value="19h">
 								          <label class="form-check-label" for="gridRadios2">
-								            Pour 19h
+								            Pour 19h (Repas)
 								          </label>
 								        </div>
 								       
