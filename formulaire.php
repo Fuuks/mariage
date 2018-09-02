@@ -30,7 +30,7 @@
 		$res = $conn->exec($sql);
 
 		if($res==1){
-
+			$conn->closeCursor();
 			header("Location: http://fuki-bea.fr/");
 		}
     }else{
