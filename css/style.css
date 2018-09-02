@@ -35,6 +35,15 @@ Table of Content:
 /*font Variables*/
 /*Color Variables*/
 
+
+.menu_logo:hover{
+  color: #c28484!important;
+}
+
+.menu_logo{
+  color: white!important;
+}
+
 .img-hotels{
   height: 500px;
 }
