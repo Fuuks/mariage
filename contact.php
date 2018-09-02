@@ -169,7 +169,7 @@
                                     </div>
                                     <div class="form-group col-md-12">
                                           
-                                        <input class="btn btn-secondary submit_btn" style="color: black;" value="Envoyer" id="fuki" type="submit"/>
+                                        <input class="btn btn-secondary submit_btn" style="color: white;" value="Envoyer" id="fuki" type="submit"/>
                                     
                                     </div>
                                 </form>
