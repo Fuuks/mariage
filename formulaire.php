@@ -28,10 +28,13 @@
 	 if($present == "oui"){
 		$sql ="INSERT INTO inscription VALUES ('$nom','$prenom','$portable','$present','$horaire','$nb_personnes')";
 		$conn->exec($sql);
+		header('Location:formulaire-presence.php?present='.$present); 
     }else{
-		$conn->exec('INSERT INTO inscription(nom, prenom, portable, present,) VALUES ($nom,$prenom,$portable,$present)');
+		$sql ="INSERT INTO inscription VALUES ('$nom','$prenom','$portable','$present')";
+		$conn->exec($sql);
+		header('Location:formulaire-presence.php?present='.$present); 
  	}
     
-    header('Location:formulaire-presence.php?present='.$present); 
+   
   
 ?>
