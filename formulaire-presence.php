@@ -174,7 +174,7 @@
 								  </fieldset>
 								   <fieldset class="form-group" id="horaire">
 								    <div class="row">
-								      <legend class="col-form-label col-sm-2 pt-0"></legend>
+								      <legend class="col-form-label col-sm-2 pt-0">A partir de</legend>
 								      <div class="col-sm-10">
 								        <div class="form-check">
 								          <input class="form-check-input" type="radio" name="horaire" id="gridRadios1" value="16h" checked>
