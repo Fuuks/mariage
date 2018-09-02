@@ -25,7 +25,7 @@
 	echo $nom;
 	echo $prenom;
 
-	 if($presen == "oui"){
+	 if($present == "oui"){
     	$bdd->exec('INSERT INTO inscription(nom, prenom, portable, present, horaire, nb_personnes) VALUES($nom,$prenom,$portable,$present,$horaire,$nb_personnes)');
 
     }else{
