@@ -12,7 +12,7 @@
 	} catch ( PDOException $e ) {
 		die( 'Connection failed: ' . $e->getMessage() );
 	}
-
+**/
 	$nom = $_POST['nom'];
 	$prenom = $_POST['prenom'];
     $portable =  $_POST['portable'];
@@ -20,7 +20,7 @@
     $horaire = $_POST['horaire'];
     $nb_personnes = $_POST['nb_personnes'];
 
-
+/*
 	echo $nom;
 	echo $prenom;
 
