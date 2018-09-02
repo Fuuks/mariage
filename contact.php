@@ -154,7 +154,7 @@
                         <div class="col-lg-6">
                             <div class="contact_form">
                                
-                                <form class="contact_us_form row" action="contact_process.php" method="post" id="contactForm">
+                                <form class="contact_us_form row" style="color: black!important;" action="contact_process.php" method="post" id="contactForm">
                                     <div class="form-group col-lg-12">
                                         <input type="text" class="form-control" id="name" name="name" placeholder="Nom">
                                     </div>
