@@ -6,7 +6,7 @@
 		$user = "dbo752003822";
 		
 		$passwd = "Jpgatien1993?";
-		
+
 		$conn = new PDO($host, $user, $passwd);
 		$conn->setAttribute( PDO::ATTR_PERSISTENT, TRUE );
 		$conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
@@ -24,18 +24,14 @@
 
 	echo $nom;
 	echo $prenom;
-/*
-	 if(){
-    	//$bdd->exec('INSERT INTO jeux_video(nom, possesseur, console, prix, nbre_joueurs_max, commentaires) VALUES());
+
+	 if($presen == "oui"){
+    	$bdd->exec('INSERT INTO inscription(nom, prenom, portable, present, horaire, nb_personnes) VALUES($nom,$prenom,$portable,$present,$horaire,$nb_personnes)');
 
     }else{
-		//$bdd->exec('INSERT INTO jeux_video(nom, possesseur, console, prix, nbre_joueurs_max, commentaires) VALUES());    	
-    }
+		$bdd->exec('INSERT INTO inscription(nom, prenom, portable, present,) VALUES($nom,$prenom,$portable,$present)');
+ 	}
     
-	
-	$bdd->exec('INSERT INTO jeux_video(nom, possesseur, console, prix, nbre_joueurs_max, commentaires) VALUES());
-
- */
     header('Location:formulaire-presence.php?present='.$present); 
   
 ?>
