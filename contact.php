@@ -154,7 +154,7 @@
                         <div class="col-lg-6">
                             <div class="contact_form">
                                
-                                <form class="contact_us_form row" style="color: black!important;" action="contact_process.php" method="post" id="contactForm">
+                                <form class="contact_us_form row" action="contact_process.php" method="post" id="contactForm">
                                     <div class="form-group col-lg-12">
                                         <input type="text" class="form-control" id="name" name="name" placeholder="Nom">
                                     </div>
@@ -169,7 +169,7 @@
                                     </div>
                                     <div class="form-group col-md-12">
                                           
-                                        <input class="btn btn-secondary submit_btn" value="Envoyer" id="fuki" type="submit"/>
+                                        <input class="btn btn-secondary submit_btn" style="color: black;" value="Envoyer" id="fuki" type="submit"/>
                                     
                                     </div>
                                 </form>
