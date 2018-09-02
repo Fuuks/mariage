@@ -20,10 +20,14 @@
     $horaire = $_POST['horaire'];
 	$nb_personnes = $_POST['nb_personnes'];
 	
-	$req = $conn->prepare('INSERT INTO inscription VALUES (?, ?, ?, ?, ?,?)');
 
-	$req->execute(array($nom,$prenom,$portable,$present,$horaire,$nb_personnes));
-	header('Location:index.html');
+	if($present == "oui"){
+		$req = $conn->prepare('INSERT INTO inscription VALUES (?, ?, ?, ?, ?,?)');
+
+		$req->execute(array($nom,$prenom,$portable,$present,$horaire,$nb_personnes));
+		header('Location:index.html');
+
+	}
 
 /*
 	echo $nom;
