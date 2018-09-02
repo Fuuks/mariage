@@ -30,7 +30,9 @@
 		$res = $conn->exec($sql);
 
 		if($res==1){
-			header('Location:formulaire-presence.php?present='.$present); 
+
+			header('Location:index.html'); 
+			
 			echo "toto";
 		}
     }else{
