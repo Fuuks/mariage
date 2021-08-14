@@ -8,9 +8,9 @@ a{text-decoration:none}
 .main-timeline12 .timeline-icon:before{content:"";width:1px;height:75%;background:#39ae99;margin:0 auto;position:absolute;bottom:0;left:0;right:0;z-index:-1;transition:all .3s ease 0s}
 .main-timeline12 .timeline:nth-child(2n) .timeline-icon:before{bottom:auto;top:0}
 .main-timeline12 .timeline:hover .timeline-icon:before{background:#555}
-.main-timeline12 .timeline-icon i{width:45px;height:45px;line-height:45px;border-radius:50%;background:#c28484;font-size:14px;color:#fff;transition:all .3s ease 0s}
-.main-timeline12 .timeline:hover .timeline-icon i{background:#c28484 ;animation:icon-load 2.5s ease 0s infinite}
-.main-timeline12 .border{height:15px;background:#c28484 ;margin-bottom:0;transition:all .3s ease 0s}
+.main-timeline12 .timeline-icon i{width:45px;height:45px;line-height:45px;border-radius:50%;background:#2bc0a4;font-size:14px;color:#fff;transition:all .3s ease 0s}
+.main-timeline12 .timeline:hover .timeline-icon i{background:#2bc0a4;animation:icon-load 2.5s ease 0s infinite}
+.main-timeline12 .border{height:15px;background:#2bc0a4 ;margin-bottom:0;transition:all .3s ease 0s}
 .main-timeline12 .timeline:hover .border{background:#555}
 .main-timeline12 .timeline:first-child .border{border-radius:4px 0 0 4px}
 .main-timeline12 .timeline:last-child .border{border-radius:0 4px 4px 0}

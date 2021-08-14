@@ -35,9 +35,17 @@ Table of Content:
 /*font Variables*/
 /*Color Variables*/
 
+.desc_lien{
+  color: grey;
+}
+
+.desc_lien:hover{
+  color: black;
+  font-style: oblique;
+}
 
 .menu_logo:hover{
-  color: #c28484!important;
+  color: #2bc0a4!important;
 }
 
 .menu_logo{
@@ -49,7 +57,7 @@ Table of Content:
 }
 
 h1,h2,h3,h4,h5{
-  color: #c28484!important;
+  color: #2bc0a4!important;
 }
 .separation{
   margin-top: 5%;
@@ -251,9 +259,8 @@ i:before {
 .main_menu_area .navbar .navbar-nav li a {
   padding: 0px;
   line-height: 99px;
-  color: #fff;
+  color:#2bc0a4;;
   font-size: 14px;
-  font-family: "Poppins", sans-serif;
   font-weight: 500;
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
@@ -265,7 +272,7 @@ i:before {
 }
 
 .main_menu_area .navbar .navbar-nav li:hover a, .main_menu_area .navbar .navbar-nav li.active a {
-  color: #c28484;
+  color: #2bc0a4;
 }
 
 @media (min-width: 992px) {
