@@ -7,7 +7,7 @@
 
         <link rel="icon" href="img/fav-icon.png" type="image/x-icon" />
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Mariage Fuki & Béa</title>
+        <title>Mariage Moustapha & Vicky</title>
 
         <!-- Icon css link -->
         <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -49,7 +49,7 @@
         <!--================Header Menu Area =================-->
         <header class="main_menu_area">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand font-italic menu_logo"  href="index.html">Mariage Fuki&Béa<br>6 Octobre 2018</a>
+                <a class="navbar-brand font-italic menu_logo"  href="index.html">Mariage Moustapha&Marie-Victoire<br>17 Septembre 2021</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -140,7 +140,7 @@
                                 </div>
                                 <div class="contact_d_list">
                                     <div class="contact_d_list_item">
-                                        <a href="#">fukiwony@gmail.com</a>
+                                        <a href="#">moustaphadiongue1@gmail.com</a>
                                     </div>
                                     <div class="contact_d_list_item">
                                         <p>6 Chemin du Bout Large,<br />  78540 Vernouillet, France</p>
@@ -205,7 +205,7 @@
                                     <h3>Contactez-nous</h3>
                                 </div>
 
-                                <a href="mailto:fukiwony@gmail.com">fukiwony@gmail.com</a>
+                                <a href="mailto:moustaphadiongue1@gmail.com">moustaphadiongue1@gmail.com</a>
                             </aside>
                         </div>
                     </div>
