@@ -211,8 +211,8 @@
 								  </fieldset>
 
                                   <div class="form-group row" id="nb_people">
-                                      <label for="example-number-input" class="col-10 col-form-label">Nombre de personnes qui vous accompagne <strong>(les enfants ne seront pas tolérés lors de la soirée pour cause de logistique)</strong></label>
-                                      <div class="col-2">
+                                      <label for="example-number-input" class="col-8 col-form-label">Nombre de personnes qui vous accompagne <br> <strong>(les enfants ne seront pas tolérés lors de la soirée pour cause de logistique)</strong></label>
+                                      <div class="col-4">
                                         <input class="form-control" name="nb_personnes" type="number" min="0" id="example-number-input">
                                       </div>
                                     </div>
