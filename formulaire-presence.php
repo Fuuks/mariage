@@ -82,8 +82,8 @@
      
         <!--================End Banner Area =================-->
 
-        <!--================Static Area =================-->
-        <section class="static_area">
+
+        <section>
         <div class="row">
                     <div class="alert alert-warning alert-dismissible fade show text-center" role="alert">
                                   <strong>Etant donné le contexte sanitaire, nous vous invitons à effectuer un test antigénique.
@@ -91,6 +91,10 @@
                                   </strong>
                                 </div>
                     </div>
+        </section>
+        <!--================Static Area =================-->
+        <section class="static_area">
+       
             <div class="container">
                 <div class="static_inner">
                   
