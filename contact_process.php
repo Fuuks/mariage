@@ -1,7 +1,7 @@
 <?php
 
     $to = "moustaphadiongue1@gmail.com";
-    $from = "fuki-mailer@fuki.de";
+    $from = "moustapha-mailer@moustapha.de";
     $name = $_REQUEST['name'];
     $subject = $_REQUEST['subject'];
     $cmessage = $_REQUEST['message'];

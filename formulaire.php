@@ -2,10 +2,10 @@
 
 
 	try {
-		$host ="mysql:host=db752003822.db.1and1.com;dbname=db752003822";
-		$user = "dbo752003822";
+		$host ="db769609296.hosting-data.io";
+		$user = "dbo769609296";
 		
-		$passwd = "Jpgatien1993?";
+		$passwd = "Notrepartagejesus";
 
 		$conn = new PDO($host, $user, $passwd);
 		$conn->exec('SET NAMES utf8');
