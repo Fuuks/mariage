@@ -1,6 +1,6 @@
 <?php
 
-    $to = "fukiwony@gmail.com";
+    $to = "moustaphadiongue1@gmail.com";
     $from = "fuki-mailer@fuki.de";
     $name = $_REQUEST['name'];
     $subject = $_REQUEST['subject'];
@@ -14,7 +14,7 @@
 
     $logo = 'http://wethemez.com/test-html/consultplus/img/logo-black.png';
    
-    $subject = "Mariage Fuki et Béa";
+    $subject = "Mariage Moustapha et Vicky";
     $from2 = $_REQUEST['email'];
 
 	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";

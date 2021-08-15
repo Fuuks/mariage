@@ -114,7 +114,7 @@
                             ?>
 
                                 <div class="alert alert-danger alert-dismissible fade show text-center" role="alert">
-                                  <strong>Echec du mail :/.</strong> N'hésite pas à envoyer un mail à partir de ta messagerie : fukiwony@gmail.com .
+                                  <strong>Echec du mail :/.</strong> N'hésite pas à envoyer un mail à partir de ta messagerie : moustaphadiongue1@gmail.com .
                                   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                   </button>
