@@ -4,7 +4,7 @@
 	try {
 		$host ="db769609296.hosting-data.io";
 		$user = "dbo769609296";
-		$database = "dbo769609296";
+		$database = "db769609296";
 		$passwd = "Notrepartagejesus";
 
 		$conn = new PDO("mysql:host=$host; dbname=$database;", $user, $passwd);
