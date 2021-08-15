@@ -69,6 +69,16 @@
         </header>
         <!--================End Header Menu Area =================-->
 
+         <!--================Banner Area =================-->
+         <section class="banner_area">
+            <div class="container">
+                <div class="banner_text_inner">
+                    <h4>Formulaire de présence</h4>
+                    
+                </div>
+            </div>
+        </section>
+        <!--================End Banner Area =================-->
      
         <!--================End Banner Area =================-->
 
@@ -76,6 +86,13 @@
         <section class="static_area">
             <div class="container">
                 <div class="static_inner">
+                    <div class="row">
+                    <div class="alert alert-warning alert-dismissible fade show text-center" role="alert">
+                                  <strong>Etant donné le contexte sanitaire, nous invitons chacun des invités à effectuer un test antigénique.
+                                    Sans cela nous serons dans l'obligation de vous refuser à la participation du mariage.
+                                  </strong>
+                                </div>
+                    </div>
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="static_main_content">
@@ -194,8 +211,8 @@
 								  </fieldset>
 
                                   <div class="form-group row" id="nb_people">
-                                      <label for="example-number-input" class="col-2 col-form-label">Nombre de personnes qui vous accompagne <strong>(les enfants ne seront pas tolérés lors de la soirée pour cause de logistique)</strong></label>
-                                      <div class="col-10">
+                                      <label for="example-number-input" class="col-8 col-form-label">Nombre de personnes qui vous accompagne <strong>(les enfants ne seront pas tolérés lors de la soirée pour cause de logistique)</strong></label>
+                                      <div class="col-4">
                                         <input class="form-control" name="nb_personnes" type="number" min="0" id="example-number-input">
                                       </div>
                                     </div>
