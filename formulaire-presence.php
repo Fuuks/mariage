@@ -7,7 +7,7 @@
 
         <link rel="icon" href="img/fav-icon.png" type="image/x-icon" />
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Mariage Fuki et Béa</title>
+        <title>Mariage Pierre Louis & Cindy</title>
 
         <!-- Icon css link -->
         <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -49,7 +49,7 @@
         <!--================Header Menu Area =================-->
         <header class="main_menu_area">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand font-italic menu_logo" href="index.html">Mariage Fuki&Béa<br>6 Octobre 2018</a>
+                <a class="navbar-brand font-italic menu_logo" href="index.html">Mariage Pierre Louis & Cindy<br>20 Aout 2022</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -110,6 +110,7 @@
                                 </div>
 
                                 <a href="mailto:pierre.louirazin@gmail.com">pierre.louirazin@gmail.com</a>
+                                <a href="mailto:guerrier.cindy@gmail.com">guerrier.cindy@gmail.com</a>
                             </aside>
                         </div>
                     </div>
@@ -118,7 +119,7 @@
             <div class="copy_right_area">
                 <div class="container">
                     <div class="float-md-left">
-                        <h5>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></h5>
+                    <h5>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This design is made by <a href="https://colorlib.com" target="_blank">Colorlib</a> | WebDeveloper : WONY Fuki</h5>
                     </div>
                 </div>
             </div>

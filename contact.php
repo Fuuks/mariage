@@ -7,7 +7,7 @@
 
         <link rel="icon" href="img/fav-icon.png" type="image/x-icon" />
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Mariage Pierre & Cindy</title>
+        <title>Mariage Pierre Louis & Cindy</title>
 
         <!-- Icon css link -->
         <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -49,7 +49,7 @@
         <!--================Header Menu Area =================-->
         <header class="main_menu_area">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand font-italic menu_logo" href="index.html">Mariage Pierre&Cindy<br>6 Aout 2021</a>
+            <a class="navbar-brand font-italic menu_logo" href="index.html">Mariage Pierre Louis & Cindy<br>20 Aout 2021</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -114,7 +114,7 @@
                             ?>
 
                                 <div class="alert alert-danger alert-dismissible fade show text-center" role="alert">
-                                  <strong>Echec du mail :/.</strong> N'hésite pas à envoyer un mail à partir de ta messagerie : fukiwony@gmail.com .
+                                  <strong>Echec du mail :/.</strong> N'hésite pas à envoyer un mail à partir de ta messagerie : pierre.louirazin@gmail.com .
                                   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                   </button>
@@ -146,7 +146,7 @@
                                         <p>6 Chemin du Bout Large,<br />  78540 Vernouillet, France</p>
                                     </div>
                                     <div class="contact_d_list_item">
-                                        <p>16h00-5h00 Samedi 6 Octobre</p>
+                                        <p>16h00-5h00 Samedi 20 Aout</p>
                                     </div>
                                 </div>
                             </div>
@@ -206,6 +206,7 @@
                                 </div>
 
                                 <a href="mailto:pierre.louirazin@gmail.com">pierre.louirazin@gmail.com</a>
+                                <a href="mailto:guerrier.cindy@gmail.com">guerrier.cindy@gmail.com</a>
                             </aside>
                         </div>
                     </div>
@@ -214,7 +215,7 @@
             <div class="copy_right_area">
                 <div class="container">
                     <div class="float-md-left">
-                        <h5>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></h5>
+                    <h5>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This design is made by <a href="https://colorlib.com" target="_blank">Colorlib</a> | WebDeveloper : WONY Fuki</h5>
                     </div>
                 </div>
             </div>
