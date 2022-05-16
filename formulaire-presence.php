@@ -191,7 +191,7 @@
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
                         <li class="nav-item"><a class="nav-link" href="programmation-journee.html">Programmation de la journée</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="contact.php">Formulaire de présence</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="formulaire-presence.php">Formulaire de présence</a></li>
                         <li class="nav-item"><a class="nav-link" href="informations-pratiques.html">Infos Pratiques</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.php">Contacts</a></li>
                     </ul>
