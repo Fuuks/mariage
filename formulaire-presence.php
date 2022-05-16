@@ -204,7 +204,7 @@
      
         <!--================End Banner Area =================-->
 
-        <!--================Static Area =================-->
+        <!--
               <section class="banner_area">
             <div class="container">
                 <div class="banner_text_inner">
@@ -213,7 +213,7 @@
                 </div>
             </div>
         </section>
-
+        -->
 
         <!--================End Static Area =================-->
         <!--================Footer Area =================-->
