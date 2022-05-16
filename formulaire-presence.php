@@ -40,8 +40,8 @@
     <section class="banner_area">
             <div class="container">
                 <div class="banner_text_inner">
-                    <h4>Situation Géographique</h4>
-                    <h5>Les hôtels les plus proches de la salle</h5>
+                    <h4>Formulaire d'inscription</h4>
+                    <h5>Un formulaire pour valider ta présence !</h5>
                 </div>
             </div>
         </section>
