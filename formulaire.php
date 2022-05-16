@@ -2,10 +2,10 @@
 
 
 	try {
-		$host ="mysql:host=db752003822.db.1and1.com;dbname=db752003822";
-		$user = "dbo752003822";
+		$host ="mysql:host=mysql-event-wedding.alwaysdata.net;dbname=event-wedding_w";
+		$user = "268384_w";
 		
-		$passwd = "Jpgatien1993?";
+		$passwd = "Pswd268384_w?!";
 
 		$conn = new PDO($host, $user, $passwd);
 		$conn->exec('SET NAMES utf8');
@@ -29,5 +29,5 @@
 		$req->execute(array($nom,$prenom,$portable,$present));	
 	}
 
-	 header('Location:formulaire-presence.php?present='.$present);
+	 header('Location:contact.php?present='.$present);
 ?>

@@ -49,7 +49,7 @@
         <!--================Header Menu Area =================-->
         <header class="main_menu_area">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand font-italic menu_logo" href="index.html">Mariage Pierre Louis & Cindy<br>20 Aout 2021</a>
+            <a class="navbar-brand font-italic menu_logo" href="index.html">Mariage Pierre Louis & Cindy<br>20 Aout 2022</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -58,7 +58,7 @@
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item "><a class="nav-link" href="index.html">Accueil</a></li>
                         <li class="nav-item"><a class="nav-link" href="programmation-journee.html">Programmation de la journée</a></li>
-                        <li class="nav-item"><a class="nav-link" href="formulaire-presence.php">Formulaire de présence</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.php">Formulaire de présence</a></li>
                         <li class="nav-item"><a class="nav-link" href="informations-pratiques.html">Infos Pratiques</a></li>
                         <li class="nav-item active"><a class="nav-link" href="contact.php">Contacts</a></li>
                     </ul>
@@ -194,7 +194,7 @@
                                     <li><a href="index.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Accueil</a></li>
                                     <li><a href="programmation-journee.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Programmation de la journée</a></li>
                                     <!--<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Carte d'invitation</a></li>-->
-                                    <li><a href="formulaire-presence.php"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Formulaire de présence</a></</li>
+                                    <li><a href="contact.php"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Formulaire de présence</a></</li>
                                     <li><a href="informations-pratiques.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Infos Pratiques</a></li>
                                 </ul>
                             </aside>
