@@ -37,11 +37,12 @@
     </head>
     <body>
 
-        
-        <section class="search_area">
-            <div class="search_inner">
-                <input type="text" placeholder="Enter Your Search...">
-                <i class="ti-close"></i>
+    <section class="banner_area">
+            <div class="container">
+                <div class="banner_text_inner">
+                    <h4>Situation Géographique</h4>
+                    <h5>Les hôtels les plus proches de la salle</h5>
+                </div>
             </div>
         </section>
 
