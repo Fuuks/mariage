@@ -37,7 +37,7 @@
     </head>
     <body>
 
-        <!--
+        
         <section class="search_area">
             <div class="search_inner">
                 <input type="text" placeholder="Enter Your Search...">
@@ -45,7 +45,7 @@
             </div>
         </section>
 
-        -->
+        
         <section class="static_area">
             <div class="container">
                 <div class="static_inner">
