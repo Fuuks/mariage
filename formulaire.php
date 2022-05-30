@@ -18,11 +18,10 @@
     $portable =  $_POST['portable'];
     $present = $_POST['present'];
     $horaire = $_POST['horaire'];
-	$nb_personnes = $_POST['nb_personnes'];
 
 	if($present == "oui"){
-		$req = $conn->prepare('INSERT INTO inscription VALUES (?, ?, ?, ?, ?,?)');
-		$req->execute(array($nom,$prenom,$portable,$present,$horaire,$nb_personnes));
+		$req = $conn->prepare('INSERT INTO inscription VALUES (?, ?, ?, ?, ?)');
+		$req->execute(array($nom,$prenom,$portable,$present,$horaire));
 
 	}else{
 		$req = $conn->prepare('INSERT INTO inscription VALUES (?, ?, ?, ?)');
