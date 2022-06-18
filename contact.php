@@ -140,7 +140,7 @@
                                 </div>
                                 <div class="contact_d_list">
                                     <div class="contact_d_list_item">
-                                        <a href="#">pierre.louirazin@gmail.com</a> / <a href="#">guerrier.cindy@gmail.com</a>
+                                        <a href="#">pierre.louirazin@gmail.com</a><a href="#">guerrier.cindy@gmail.com</a>
                                     </div>
                                     <div class="contact_d_list_item">
                                         <p>6 Chemin du Bout Large,<br />  78540 Vernouillet, France</p>
