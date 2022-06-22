@@ -140,11 +140,12 @@
                                 </div>
                                 <div class="contact_d_list">
                                     <div class="contact_d_list_item">
-                                    <h4>Nos témoins :</h4>
-                                    <a href="tel:0629402084"> Foued : 06 29 40 20 84 </a>
-                                    <a href="tel:0771107401"> Olivia : 07 71 10 74 01 </a>
+                                    <h5>Nos témoins :</h5>
+                                    <a href="tel:0629402084"> <strong>Foued :</strong> 06 29 40 20 84 </a>
+                                    <a href="tel:0771107401"> <strong>Olivia :</strong> 07 71 10 74 01 </a>
                                     </div>
                                     <div class="contact_d_list_item">
+                                        <h5>Nos mails :</h5>
                                         <a href="#">pierre.louirazin@gmail.com</a><a href="#">guerrier.cindy@gmail.com</a>
                                     </div>
                                     <div class="contact_d_list_item">
