@@ -136,9 +136,14 @@
                             <div class="contact_text">
                                 <div class="main_title">
                                     <h2>Contactez nous</h2>
-                                    <p>En cas de question sur l'organisation du mariage n'hésitez pas à nous contacter par mail</p>
+                                    <p>En cas de question sur l'organisation du mariage n'hésitez pas à nous contacter par mail ou contacter nos témoins :</p>
                                 </div>
                                 <div class="contact_d_list">
+                                    <div class="contact_d_list_item">
+                                    <h4>Nos témoins :</h4>
+                                    <a href="tel:0629402084"> Foued : 06 29 40 20 84 </a>
+                                    <a href="tel:0771107401"> Olivia : 07 71 10 74 01 </a>
+                                    </div>
                                     <div class="contact_d_list_item">
                                         <a href="#">pierre.louirazin@gmail.com</a><a href="#">guerrier.cindy@gmail.com</a>
                                     </div>
