@@ -28,5 +28,5 @@
 		$req->execute(array($nom,$prenom,$portable,$present));	
 	}
 
-	 header('Location:contact.php?present='.$present);
+	 header('Location:formulaire-presence.php?present='.$present);
 ?>
