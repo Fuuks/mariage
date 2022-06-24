@@ -3,7 +3,7 @@
 
 	try {
 		$host ="mysql:host=mysql-pierre-et-cindy.alwaysdata.net;dbname=pierre-et-cindy_bd";
-		$user = "273874_";
+		$user = "273874_r";
 		
 		$passwd = "Pswd268384_w?!";
 
