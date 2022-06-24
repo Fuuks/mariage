@@ -26,7 +26,7 @@
 	}else{
 		$req = $conn->prepare('INSERT INTO inscription VALUES (?, ?, ?, ?)');
 		$horaire = NULL;
-		$req->execute(array($nom,$prenom,$portable,$present));	
+		$req->execute(array($nom,$prenom,$portable,$present,$horaire));	
 	}
 
 	 header('Location:formulaire-presence.php?present='.$present);
