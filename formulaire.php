@@ -24,7 +24,7 @@
 		$req->execute(array($nom,$prenom,$portable,$present,$horaire));
 
 	}else{
-		$req = $conn->prepare('INSERT INTO inscription VALUES (?, ?, ?, ?)');
+		$req = $conn->prepare('INSERT INTO inscription VALUES (?, ?, ?, ?, ?)');
 		$horaire = NULL;
 		$req->execute(array($nom,$prenom,$portable,$present,$horaire));	
 	}
