@@ -116,7 +116,7 @@
 								  <div class="form-group row">
 								    <label for="inputEmail3" class="col-sm-2 col-form-label">Numéro de portable</label>
 								    <div class="col-sm-10">
-								      <input type="text" class="form-control" pattern="^(?:0|\(?\+33\)?\s?|0033\s?)[1-79](?:[\.\-\s]?\d\d){4}$" name="portable" id="inputEmail3" placeholder="Numéro de portable" required>
+								      <input type="text" class="form-control" pattern="^(?:0|\(?\+33\)?\s?|0033\s?)[1-79](?:[\.\-\s]?\d\d){4}$" name="portable" id="inputEmail3" placeholder="Numéro de portable">
 								    </div>
 								  </div>
 								  <fieldset class="form-group">
