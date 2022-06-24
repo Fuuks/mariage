@@ -156,6 +156,13 @@
 								          </label>
 								        </div>
 
+                        <div class="form-check">
+								          <input class="form-check-input" type="radio" name="horaire" id="gridRadios3" value="all">
+								          <label class="form-check-label" for="gridRadios3">
+								            Pour les 2 (Cérémonie & Repas)
+								          </label>
+								        </div>
+
 								      </div>
 								    </div>
 								  </fieldset>
