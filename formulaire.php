@@ -2,8 +2,8 @@
 
 
 	try {
-		$host ="mysql:host=mysql-event-wedding.alwaysdata.net;dbname=event-wedding_w";
-		$user = "268384_w";
+		$host ="mysql:host=mysql-pierre-et-cindy.alwaysdata.net;dbname=pierre-et-cindy_bd";
+		$user = "273874_";
 		
 		$passwd = "Pswd268384_w?!";
 
