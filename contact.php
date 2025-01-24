@@ -140,7 +140,7 @@
                                 </div>
                                 <div class="contact_d_list">
                                     <div class="contact_d_list_item">
-                                        <a href="#">moustaphadiongue1@gmail.com</a>
+                                        <a href="#">crismilalu@gmail.com</a>
                                     </div>
                                     <div class="contact_d_list_item">
                                         <p>6 Chemin du Bout Large,<br />  78540 Vernouillet, France</p>
@@ -214,7 +214,7 @@
             <div class="copy_right_area">
                 <div class="container">
                     <div class="float-md-left">
-                        <h5>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></h5>
+                        <h5>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib & update by W.F</a></h5>
                     </div>
                 </div>
             </div>
