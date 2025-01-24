@@ -1,0 +1,702 @@
+@font-face {
+    font-family: "campanile";
+	font-display: swap;
+    src: url("/static/webfont-icons/campanile.eot?5cc1a5e4e1a1a405d68acf22b8c939d9?#iefix") format("embedded-opentype"),
+url("/static/webfont-icons/campanile.woff2?5cc1a5e4e1a1a405d68acf22b8c939d9") format("woff2"),
+url("/static/webfont-icons/campanile.woff?5cc1a5e4e1a1a405d68acf22b8c939d9") format("woff"),
+url("/static/webfont-icons/campanile.ttf?5cc1a5e4e1a1a405d68acf22b8c939d9") format("truetype"),
+url("/static/webfont-icons/campanile.svg?5cc1a5e4e1a1a405d68acf22b8c939d9#campanile") format("svg");
+}
+
+i[class^="icon-"]:before, i[class*=" icon-"]:before {
+    font-family: campanile !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrival:before {
+    content: "\f100";
+}
+.icon-arrow-back:before {
+    content: "\f101";
+}
+.icon-arrow-corner:before {
+    content: "\f102";
+}
+.icon-arrow-down-dark:before {
+    content: "\f103";
+}
+.icon-arrow-down:before {
+    content: "\f104";
+}
+.icon-arrow-left-link:before {
+    content: "\f105";
+}
+.icon-arrow-left:before {
+    content: "\f106";
+}
+.icon-arrow-right-link:before {
+    content: "\f107";
+}
+.icon-arrow-right-small-link:before {
+    content: "\f108";
+}
+.icon-arrow-right:before {
+    content: "\f109";
+}
+.icon-arrow-up:before {
+    content: "\f10a";
+}
+.icon-booking-dark:before {
+    content: "\f10b";
+}
+.icon-booking:before {
+    content: "\f10c";
+}
+.icon-calendar-dark:before {
+    content: "\f10d";
+}
+.icon-calendar:before {
+    content: "\f10e";
+}
+.icon-campanile:before {
+    content: "\f10f";
+}
+.icon-cancel-booking:before {
+    content: "\f110";
+}
+.icon-car:before {
+    content: "\f111";
+}
+.icon-card-lock:before {
+    content: "\f112";
+}
+.icon-card-power:before {
+    content: "\f113";
+}
+.icon-card:before {
+    content: "\f114";
+}
+.icon-charge:before {
+    content: "\f115";
+}
+.icon-chat:before {
+    content: "\f116";
+}
+.icon-check-circle:before {
+    content: "\f117";
+}
+.icon-check:before {
+    content: "\f118";
+}
+.icon-checkin:before {
+    content: "\f119";
+}
+.icon-checkout:before {
+    content: "\f11a";
+}
+.icon-chevron-left:before {
+    content: "\f11b";
+}
+.icon-chevron-right:before {
+    content: "\f11c";
+}
+.icon-close:before {
+    content: "\f11d";
+}
+.icon-confirmed:before {
+    content: "\f11e";
+}
+.icon-cross-dark:before {
+    content: "\f11f";
+}
+.icon-cross:before {
+    content: "\f120";
+}
+.icon-current-location:before {
+    content: "\f121";
+}
+.icon-delete:before {
+    content: "\f122";
+}
+.icon-departure:before {
+    content: "\f123";
+}
+.icon-diamond:before {
+    content: "\f124";
+}
+.icon-disability:before {
+    content: "\f125";
+}
+.icon-dot:before {
+    content: "\f126";
+}
+.icon-double-bed:before {
+    content: "\f127";
+}
+.icon-double-quotes:before {
+    content: "\f128";
+}
+.icon-doublechevron-down:before {
+    content: "\f129";
+}
+.icon-email:before {
+    content: "\f12a";
+}
+.icon-event:before {
+    content: "\f12b";
+}
+.icon-eye-alt:before {
+    content: "\f12c";
+}
+.icon-eye-show:before {
+    content: "\f12d";
+}
+.icon-eye:before {
+    content: "\f12e";
+}
+.icon-facebook-dark:before {
+    content: "\f12f";
+}
+.icon-facebook:before {
+    content: "\f130";
+}
+.icon-family:before {
+    content: "\f131";
+}
+.icon-favicon:before {
+    content: "\f132";
+}
+.icon-fib:before {
+    content: "\f133";
+}
+.icon-filter-bars:before {
+    content: "\f134";
+}
+.icon-filter:before {
+    content: "\f135";
+}
+.icon-fullscreen:before {
+    content: "\f136";
+}
+.icon-gallery:before {
+    content: "\f137";
+}
+.icon-golden-tulip-2line:before {
+    content: "\f138";
+}
+.icon-golden-tulip:before {
+    content: "\f139";
+}
+.icon-heart-outline:before {
+    content: "\f13a";
+}
+.icon-heart:before {
+    content: "\f13b";
+}
+.icon-help:before {
+    content: "\f13c";
+}
+.icon-him-new-menu-comfort:before {
+    content: "\f13d";
+}
+.icon-him-new-menu-contactandlocalisation:before {
+    content: "\f13e";
+}
+.icon-him-new-menu-equipments:before {
+    content: "\f13f";
+}
+.icon-him-new-menu-hotel:before {
+    content: "\f140";
+}
+.icon-him-new-menu-meetings:before {
+    content: "\f141";
+}
+.icon-him-new-menu-photos:before {
+    content: "\f142";
+}
+.icon-him-new-menu-promos:before {
+    content: "\f143";
+}
+.icon-him-new-menu-restaurant:before {
+    content: "\f144";
+}
+.icon-him-new-menu-reviews:before {
+    content: "\f145";
+}
+.icon-him-new-menu-rooms:before {
+    content: "\f146";
+}
+.icon-hosho:before {
+    content: "\f147";
+}
+.icon-hotel-bell:before {
+    content: "\f148";
+}
+.icon-hotels-preferences:before {
+    content: "\f149";
+}
+.icon-hotels-residences:before {
+    content: "\f14a";
+}
+.icon-icon-pan:before {
+    content: "\f14b";
+}
+.icon-icon-richcontent-calendar:before {
+    content: "\f14c";
+}
+.icon-icon-richcontent-timer:before {
+    content: "\f14d";
+}
+.icon-icon-timer:before {
+    content: "\f14e";
+}
+.icon-info-outline:before {
+    content: "\f14f";
+}
+.icon-info:before {
+    content: "\f150";
+}
+.icon-instagram:before {
+    content: "\f151";
+}
+.icon-invalid:before {
+    content: "\f152";
+}
+.icon-invoice:before {
+    content: "\f153";
+}
+.icon-jinjiang-inn:before {
+    content: "\f154";
+}
+.icon-kyriad-direct:before {
+    content: "\f155";
+}
+.icon-kyriad:before {
+    content: "\f156";
+}
+.icon-list-chip:before {
+    content: "\f157";
+}
+.icon-list:before {
+    content: "\f158";
+}
+.icon-location:before {
+    content: "\f159";
+}
+.icon-login:before {
+    content: "\f15a";
+}
+.icon-mail-dark:before {
+    content: "\f15b";
+}
+.icon-mail-outline:before {
+    content: "\f15c";
+}
+.icon-mail-rounded:before {
+    content: "\f15d";
+}
+.icon-manage-booking:before {
+    content: "\f15e";
+}
+.icon-map-pin:before {
+    content: "\f15f";
+}
+.icon-map:before {
+    content: "\f160";
+}
+.icon-marker-stroked:before {
+    content: "\f161";
+}
+.icon-marker:before {
+    content: "\f162";
+}
+.icon-menu-restaurant:before {
+    content: "\f163";
+}
+.icon-menu:before {
+    content: "\f164";
+}
+.icon-metropolo:before {
+    content: "\f165";
+}
+.icon-minus-rounded:before {
+    content: "\f166";
+}
+.icon-my-bookings:before {
+    content: "\f167";
+}
+.icon-online:before {
+    content: "\f168";
+}
+.icon-option:before {
+    content: "\f169";
+}
+.icon-options-rtl:before {
+    content: "\f16a";
+}
+.icon-parameters-outline:before {
+    content: "\f16b";
+}
+.icon-parameters:before {
+    content: "\f16c";
+}
+.icon-park:before {
+    content: "\f16d";
+}
+.icon-payment-dark:before {
+    content: "\f16e";
+}
+.icon-payment:before {
+    content: "\f16f";
+}
+.icon-pencil-outline:before {
+    content: "\f170";
+}
+.icon-pencil:before {
+    content: "\f171";
+}
+.icon-person:before {
+    content: "\f172";
+}
+.icon-phone-outline:before {
+    content: "\f173";
+}
+.icon-phone-rounded:before {
+    content: "\f174";
+}
+.icon-phone:before {
+    content: "\f175";
+}
+.icon-place:before {
+    content: "\f176";
+}
+.icon-play:before {
+    content: "\f177";
+}
+.icon-playVideo:before {
+    content: "\f178";
+}
+.icon-plus-bold:before {
+    content: "\f179";
+}
+.icon-plus-dark:before {
+    content: "\f17a";
+}
+.icon-plus-rounded:before {
+    content: "\f17b";
+}
+.icon-plus:before {
+    content: "\f17c";
+}
+.icon-poi-airport:before {
+    content: "\f17d";
+}
+.icon-poi-beach:before {
+    content: "\f17e";
+}
+.icon-poi-bus:before {
+    content: "\f17f";
+}
+.icon-poi-casino:before {
+    content: "\f180";
+}
+.icon-poi-cultural:before {
+    content: "\f181";
+}
+.icon-poi-entertaiment:before {
+    content: "\f182";
+}
+.icon-poi-exhibition:before {
+    content: "\f183";
+}
+.icon-poi-museum:before {
+    content: "\f184";
+}
+.icon-poi-nature:before {
+    content: "\f185";
+}
+.icon-poi-park:before {
+    content: "\f186";
+}
+.icon-poi-parking:before {
+    content: "\f187";
+}
+.icon-poi-pool:before {
+    content: "\f188";
+}
+.icon-poi-shopping:before {
+    content: "\f189";
+}
+.icon-poi-spa:before {
+    content: "\f18a";
+}
+.icon-poi-sport:before {
+    content: "\f18b";
+}
+.icon-poi-train:before {
+    content: "\f18c";
+}
+.icon-poi-winery:before {
+    content: "\f18d";
+}
+.icon-poi-zoo:before {
+    content: "\f18e";
+}
+.icon-poi:before {
+    content: "\f18f";
+}
+.icon-premiere-classe:before {
+    content: "\f190";
+}
+.icon-protect:before {
+    content: "\f191";
+}
+.icon-quote:before {
+    content: "\f192";
+}
+.icon-rates:before {
+    content: "\f193";
+}
+.icon-refresh:before {
+    content: "\f194";
+}
+.icon-renovate:before {
+    content: "\f195";
+}
+.icon-restaurant:before {
+    content: "\f196";
+}
+.icon-reviews:before {
+    content: "\f197";
+}
+.icon-rocket:before {
+    content: "\f198";
+}
+.icon-room:before {
+    content: "\f199";
+}
+.icon-royal-tulip:before {
+    content: "\f19a";
+}
+.icon-rt_acccard:before {
+    content: "\f19b";
+}
+.icon-rt_acchy:before {
+    content: "\f19c";
+}
+.icon-rt_accinfo:before {
+    content: "\f19d";
+}
+.icon-rt_accry:before {
+    content: "\f19e";
+}
+.icon-rt_accsmok:before {
+    content: "\f19f";
+}
+.icon-rt_accsy:before {
+    content: "\f1a0";
+}
+.icon-rt_bbamn:before {
+    content: "\f1a1";
+}
+.icon-rt_bbath:before {
+    content: "\f1a2";
+}
+.icon-rt_bhadry:before {
+    content: "\f1a3";
+}
+.icon-rt_bshow:before {
+    content: "\f1a4";
+}
+.icon-rt_btoib:before {
+    content: "\f1a5";
+}
+.icon-rt_btois:before {
+    content: "\f1a6";
+}
+.icon-rt_dbotwaf:before {
+    content: "\f1a7";
+}
+.icon-rt_dclubl:before {
+    content: "\f1a8";
+}
+.icon-rt_dminiba:before {
+    content: "\f1a9";
+}
+.icon-rt_drmserv:before {
+    content: "\f1aa";
+}
+.icon-rt_epytvp:before {
+    content: "\f1ab";
+}
+.icon-rt_evidgam:before {
+    content: "\f1ac";
+}
+.icon-rt_evidond:before {
+    content: "\f1ad";
+}
+.icon-rt_falacl:before {
+    content: "\f1ae";
+}
+.icon-rt_fdesk:before {
+    content: "\f1af";
+}
+.icon-rt_firon:before {
+    content: "\f1b0";
+}
+.icon-rt_icabi:before {
+    content: "\f1b1";
+}
+.icon-rt_itvif:before {
+    content: "\f1b2";
+}
+.icon-rt_raircon:before {
+    content: "\f1b3";
+}
+.icon-rt_rbalc:before {
+    content: "\f1b4";
+}
+.icon-rt_rconra:before {
+    content: "\f1b5";
+}
+.icon-rt_rex1b:before {
+    content: "\f1b6";
+}
+.icon-rt_rexcr:before {
+    content: "\f1b7";
+}
+.icon-rt_rfkit:before {
+    content: "\f1b8";
+}
+.icon-rt_rnskm:before {
+    content: "\f1b9";
+}
+.icon-rt_rterr:before {
+    content: "\f1ba";
+}
+.icon-rt_rview:before {
+    content: "\f1bb";
+}
+.icon-rt_rwar:before {
+    content: "\f1bc";
+}
+.icon-sa-checkin:before {
+    content: "\f1bd";
+}
+.icon-sa-checkout:before {
+    content: "\f1be";
+}
+.icon-safe-payment:before {
+    content: "\f1bf";
+}
+.icon-sarovar:before {
+    content: "\f1c0";
+}
+.icon-search-outline:before {
+    content: "\f1c1";
+}
+.icon-search:before {
+    content: "\f1c2";
+}
+.icon-security:before {
+    content: "\f1c3";
+}
+.icon-send:before {
+    content: "\f1c4";
+}
+.icon-setting:before {
+    content: "\f1c5";
+}
+.icon-sharing:before {
+    content: "\f1c6";
+}
+.icon-shopping-cart:before {
+    content: "\f1c7";
+}
+.icon-signin:before {
+    content: "\f1c8";
+}
+.icon-special-codes-cross:before {
+    content: "\f1c9";
+}
+.icon-special-codes-plus:before {
+    content: "\f1ca";
+}
+.icon-spinner:before {
+    content: "\f1cb";
+}
+.icon-square:before {
+    content: "\f1cc";
+}
+.icon-star-stroked:before {
+    content: "\f1cd";
+}
+.icon-star:before {
+    content: "\f1ce";
+}
+.icon-surface:before {
+    content: "\f1cf";
+}
+.icon-tempting-places:before {
+    content: "\f1d0";
+}
+.icon-ticket:before {
+    content: "\f1d1";
+}
+.icon-transportation_airport:before {
+    content: "\f1d2";
+}
+.icon-transportation_car:before {
+    content: "\f1d3";
+}
+.icon-transportation_public:before {
+    content: "\f1d4";
+}
+.icon-transportation_station:before {
+    content: "\f1d5";
+}
+.icon-transportation_taxi:before {
+    content: "\f1d6";
+}
+.icon-tulip-inn:before {
+    content: "\f1d7";
+}
+.icon-tulip-residences:before {
+    content: "\f1d8";
+}
+.icon-type-cooking:before {
+    content: "\f1d9";
+}
+.icon-user-plus:before {
+    content: "\f1da";
+}
+.icon-users:before {
+    content: "\f1db";
+}
+.icon-valid:before {
+    content: "\f1dc";
+}
+.icon-validation-rounded-inprogress:before {
+    content: "\f1dd";
+}
+.icon-validation-rounded:before {
+    content: "\f1de";
+}
+.icon-view360:before {
+    content: "\f1df";
+}
+.icon-wbe-help:before {
+    content: "\f1e0";
+}
+.icon-wellness:before {
+    content: "\f1e1";
+}
+.icon-wifi:before {
+    content: "\f1e2";
+}

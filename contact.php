@@ -49,7 +49,7 @@
         <!--================Header Menu Area =================-->
         <header class="main_menu_area">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand font-italic menu_logo"  href="index.html">Mariage Moustapha&Marie-Victoire<br>17 Septembre 2021</a>
+                <a class="navbar-brand font-italic menu_logo"  href="index.html">Cris & Christy<br>28 Mars 2025</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -205,7 +205,7 @@
                                     <h3>Contactez-nous</h3>
                                 </div>
 
-                                <a href="mailto:moustaphadiongue1@gmail.com">moustaphadiongue1@gmail.com</a>
+                               <a href="mailto:crismilalu@gmail.com">crismilalu@gmail.com</a>
                             </aside>
                         </div>
                     </div>

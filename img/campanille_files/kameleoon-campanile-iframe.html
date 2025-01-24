@@ -1,0 +1,295 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0079)https://www.campanile.com/static/kameleoon/prod/kameleoon-campanile-iframe.html -->
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Kameleoon Platform</title>
+    
+    <meta name="robots" content="noindex">
+    <script type="text/javascript">
+    /* Version 11/06/2020 */
+    
+    /* Fill the following variable with your allowed domains, as an array.
+    Use wildcards ("*") to include all subdomains.
+    For instance, allowedDomains = ["*.example.com", "*.travel.website.fr", "hello.website.fr"];	
+    This would allow domains www.example.com, buy.example.com, foo.buy.example.com, my.travel.website.fr but NOT www.website.fr, example.com or www.other.com.
+    Leave allowedDomains to null to accept all domains (this is a potential security risk). */
+
+    var allowedDomains = ["*.campanile.com", "*.campanile.cn"];
+
+    /* Fill the following variable with your own siteCode identifier. This will allow our back-office application to automatically check if your installation is correct.
+    For instance, siteCode = "a8st4f59bj"; */
+
+    var siteCode = "64na0vj4l5";
+
+    /* Don't modify anything below! */
+    var isDomainAllowed;
+    if (allowedDomains != null)
+    {
+        isDomainAllowed = function(domain)
+        {
+            for (var i = 0, l = allowedDomains.length; i < l; ++i)
+            {
+                var allowedDomain = allowedDomains[i];
+                if (domain.match("^" + allowedDomain.replace("*", "(.*)")))
+                {
+                    return true
+                }
+            }
+            return false;
+        };
+    }
+    else
+    {
+        isDomainAllowed = function(domain)
+        {
+            return true;
+        };
+    }
+    var parentURLLink = document.createElement("a");
+    parentURLLink.href = document.referrer;
+    if (isDomainAllowed(parentURLLink.hostname))
+    {
+        try
+        {
+            if (window.localStorage)
+            {
+                localStorage.setItem("kameleoonPrivateMode", "false");
+                localStorage.removeItem("kameleoonPrivateMode");
+            }
+            else
+            {
+                window.noLocalStorage = true;
+            }
+        }
+        catch (e)
+        {
+            window.noLocalStorage = true;
+        }
+        if (! window.noLocalStorage)
+        {
+            window.retrieve = function()
+            {
+                var currentTime = new Date().getTime();
+                var data = {};
+                var deletedKeys = [];
+                for (var i = 0, l = localStorage.length; i < l; ++i)
+                {
+                    var key = localStorage.key(i);
+                    if (key.indexOf("kameleoon") == 0)
+                    {
+                        try
+                        {
+                            var currentData = JSON.parse(localStorage.getItem(key));
+                            if ("kameleoonOpenTabs" != key && (currentTime > (currentData.date || currentData.expirationDate)))
+                            {
+                                deletedKeys.push(i);
+                            }
+                            else
+                            {
+                                data[key] = currentData.value;
+                            }
+                        }
+                        catch(e) {}
+                    }
+                }
+                for (var i = 0, l = deletedKeys.length; i < l; ++i)
+                {
+                    localStorage.removeItem(localStorage.key(deletedKeys[i]));
+                }
+                return data;
+            };
+            var processMessageEvent = function(event)
+            {
+                var eventURLLink = document.createElement("a");
+                eventURLLink.href = event.origin;
+                if (!isDomainAllowed(eventURLLink.hostname))
+                {
+                    return;
+                }
+                var messageData = event.data;
+                if (typeof messageData != "string" || messageData.indexOf("kameleoon") != 0)
+                {
+                    return;
+                }
+                messageData = messageData.slice("kameleoon".length);
+                try
+                {
+                    messageData = JSON.parse(messageData);
+                }
+                catch (exception)
+                {
+                    return;
+                }
+                if (! messageData.type)
+                {
+                    return;
+                }
+                var objectToPost = {
+                    "callbackId": messageData.callbackId,
+                    "kameleoonMessage": true
+                };
+                switch (messageData.type.toLowerCase())
+                {
+                    case "retrieve":
+                        objectToPost.data = window.retrieve();
+                        break;
+                    case "set":
+                        if (messageData.key.indexOf("kameleoon") == 0)
+                        {
+                            localStorage.setItem(messageData.key, JSON.stringify(messageData.data));
+                        }
+                        break;
+                    case "remove":
+                        if (messageData.key.indexOf("kameleoon") == 0)
+                        {
+                            localStorage.removeItem(messageData.key);
+                        }
+                        break;
+                    case "tabcount":
+                        // reading tabs from local storage
+                        var tabs = localStorage.getItem("kameleoonOpenTabs");
+                        tabs = (tabs == null) ? {} : JSON.parse(tabs);
+                        // removing dead tabs and counts number of tabs
+                        var nowTime = new Date().getTime();
+                        var tabCount = 0;
+                        for (var tabCode in tabs)
+                        {
+                            var tabDeadTime = tabs[tabCode];
+                            if (tabDeadTime < nowTime)
+                            {
+                                delete(tabs[tabCode]);
+                            }
+                            else
+                            {
+                                ++tabCount;
+                            }
+                        }
+                        // updating calling tab registration and number of tabs
+                        if (! tabs[messageData.tabCode])
+                        {
+                            ++tabCount;
+                        }
+                        tabs[messageData.tabCode] = messageData.deadTime;
+                        // updating tabs in local storage
+                        localStorage.setItem("kameleoonOpenTabs", JSON.stringify(tabs));
+                        // sending tab count as response
+                        objectToPost.data = tabCount;
+                        break;
+                }
+                if (["retrieve", "set", "remove", "tabcount"].indexOf(messageData.type.toLowerCase()) != -1) {
+                    event.source.postMessage(JSON.stringify(objectToPost), event.origin);
+                }
+            };
+            // initializing tabs in local storage if necessary
+            if (! localStorage.getItem("kameleoonOpenTabs"))
+            {
+                localStorage.setItem("kameleoonOpenTabs", JSON.stringify({}));
+            }
+            // adding message event listenner
+            if (window.addEventListener)
+            {
+                window.addEventListener("message", processMessageEvent, false);
+                window.addEventListener
+                (
+                    "storage",
+                    function (event)
+                    {
+                        var keysSplit = null == event.key ? [""] : event.key.split("-");
+                        var key = keysSplit[0];
+                        if (-1 != key.indexOf("kameleoon"))
+                        {
+                            var value;
+                            if (null == event.newValue)
+                            {
+                                value = null;
+                            }
+                            else
+                            {
+                                try
+                                {
+                                    value = JSON.parse(event.newValue).value;
+                                }
+                                catch (e)
+                                {
+                                    return;
+                                }
+                            }
+                            var objectToPost = {
+                                "kameleoonMessage": true
+                            };
+                            switch (key)
+                            {
+                                case "kameleoonExperiment":
+                                    objectToPost.type = key;
+                                    var experimentIdAsString = keysSplit[1];
+                                    objectToPost.experimentId = isNaN(experimentIdAsString) ? experimentIdAsString : parseInt(experimentIdAsString);
+                                    var registeredVariationId;
+                                    if (value == null)
+                                    {
+                                        registeredVariationId = null;
+                                    }
+                                    else
+                                    {
+                                        var registeredVariationIdAsString = value.split("/")[0];
+                                        registeredVariationId = isNaN(registeredVariationIdAsString) ? registeredVariationIdAsString : parseInt(registeredVariationIdAsString);
+                                    }
+                                    objectToPost.registeredVariationId = registeredVariationId;
+                                    break;
+                                case "kameleoonGlobalPersonalizationExposition":
+                                    objectToPost.type = key;
+                                    objectToPost.active = value == null ? null : value.split("/")[0] == "true";
+                                    break;
+                                case "kameleoonData":
+                                case "kameleoonSimulationVisitorData":
+                                    objectToPost.type = key;
+                                    objectToPost.value = value == null ? null : value;
+                                    break;
+                                case "kameleoonLegalConsent":
+                                    objectToPost.type = key;
+                                    objectToPost.saveLegalConsent = value == null ? null : value;
+                                    break;
+                            }
+                            if (null != objectToPost.type)
+                            {
+                                window.parent.postMessage(JSON.stringify(objectToPost), "*");
+                            }
+                        }
+                    },
+                    false
+                );
+            }
+        }
+        // sending Kameleoon script as string
+        var messageToPost = "";
+        if (! window.noLocalStorage)
+        {
+            messageToPost += "Kameleoon.Internals.configuration.useWideDomainSupport = true;";
+            var externalIframeDataAsString;
+            try
+            {
+                externalIframeDataAsString = JSON.stringify(window.retrieve());
+                eval("window.testExternalIframeData = " + externalIframeDataAsString + ";delete window.testExternalIframeData;")
+            }
+            catch (e)
+            {
+                externalIframeDataAsString = JSON.stringify({});
+            }
+            messageToPost += ("Kameleoon.Internals.configuration.externalIframeData = " + externalIframeDataAsString + ";");
+        }
+        window.parent.postMessage(messageToPost, "*");
+    }
+
+    if (window.parent.parent)
+    {
+        var resultMessage = {
+            "kameleoonIframeData": {
+                "type": "templatePresent",
+                "siteCode": siteCode
+            }
+        };
+        window.parent.parent.postMessage(resultMessage, "*");
+    }
+    </script>
+<script>bazadebezolkohpepadr="1607729398"</script><script type="text/javascript" src="./5fd403ae(1)" defer=""></script></head>
+<body><noscript><img src="https://www.campanile.com/akam/13/pixel_5fd403ae?a=dD0xNmZkNzU1Yzk2ZjdmNGM2MTNmODFjZjk4ZGU4OTA4ZjY0ZTg3YjkyJmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript><script type="text/javascript" src="./gk3Uh4"></script>
+
+</body></html>

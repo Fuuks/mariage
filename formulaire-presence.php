@@ -109,7 +109,7 @@
                                     <h3>Contactez-nous</h3>
                                 </div>
 
-                                <a href="mailto:moustaphadiongue1@gmail.com">moustaphadiongue1@gmail.com</a>
+                               <a href="mailto:crismilalu@gmail.com">crismilalu@gmail.com</a>
                             </aside>
                         </div>
                     </div>
