@@ -79,10 +79,53 @@
         </section>
 
         
-        <div class="static_text2">
+        <section class="static_area">
+            <div class="container">
+                <div class="static_inner">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="static_main_content">
+
+                            <?php
+
+                                if(isset($_GET['present'])){
+                                    $present = $_GET['present'];
+                                }else{
+                                    $present = null;
+                                }
+
+
+                                if($present=='oui'){
+
+                            ?>
+
+
+                                <div class="alert alert-success alert-dismissible fade show text-center" role="alert">
+                                  <strong>Inscription avec succès !</strong> On te tient au courant pour la suite.
+                                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                            <?php
+
+                                }else if($present=='non'){
+                            ?>
+
+                                <div class="alert alert-danger alert-dismissible fade show text-center" role="alert">
+                                  <strong>Dommage tu ne seras pas présent : / </strong> En espérant te voir une prochaine fois ;)
+                                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+
+                            <?php
+
+                                } 
+                            ?>
+                            	  <div class="static_text2">
                                     <h3>Confirme ta présence !</h3>
                                     <p>Partageras-tu ce moment de joie avec nous ?</p>
-                                   
+
                                 </div>
                                 <div class="separation"></div>
 
@@ -105,7 +148,7 @@
 								  <div class="form-group row">
 								    <label for="inputEmail3" class="col-sm-2 col-form-label">Numéro de portable</label>
 								    <div class="col-sm-10">
-								      <input type="text" class="form-control" pattern="^(?:0|\(?\+33\)?\s?|0033\s?)[1-79](?:[\.\-\s]?\d\d){4}$" name="portable" id="inputEmail3" placeholder="Numéro de portable" required>
+								      <input type="text" class="form-control" pattern="^(?:0|\(?\+33\)?\s?|0033\s?)[1-79](?:[\.\-\s]?\d\d){4}$" name="portable" id="inputEmail3" placeholder="Numéro de portable">
 								    </div>
 								  </div>
 								  <fieldset class="form-group">
@@ -124,7 +167,7 @@
 								            Je ne pourrai pas être là
 								          </label>
 								        </div>
-								       
+
 								      </div>
 								    </div>
 								  </fieldset>
@@ -144,21 +187,30 @@
 								            Pour 19h (Repas)
 								          </label>
 								        </div>
-								       
+
+                        <div class="form-check">
+								          <input class="form-check-input" type="radio" name="horaire" id="gridRadios3" value="all">
+								          <label class="form-check-label" for="gridRadios3">
+								            Pour les 2 (Cérémonie & Repas)
+								          </label>
+								        </div>
+
 								      </div>
 								    </div>
 								  </fieldset>
 
                                   <div class="form-group row" id="nb_people">
-                                      <label for="example-number-input" class="col-2 col-form-label">Nombre de personnes</label>
+                                      <label for="example-number-input" class="col-2 col-form-label">Nombre de personnes (même groupe/famille)</label>
                                       <div class="col-10">
                                         <input class="form-control" name="nb_personnes" type="number" min="0" id="example-number-input">
                                       </div>
                                     </div>
-								 
-								
+
+                      
+
+
 								      <input type="submit" class="btn btn-primary" value="Envoyer"/>
-								 
+
 								</form>               
                             </div>
                         </div>
