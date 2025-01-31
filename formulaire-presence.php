@@ -222,6 +222,9 @@
 
         <!--================Static Area =================-->
         <?php 
+        
+        $present = null;
+
         if($present=='null'){
 
         }else{
