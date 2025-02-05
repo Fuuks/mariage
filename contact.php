@@ -74,8 +74,14 @@
                 <div class="banner_text_inner">
                     <h4>Contactez nous</h4>
                     <h5>Si vous avez des questions sur l'organisation contactez nous</h5>
+
+                    <ul>
+                        <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Accueil</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Contacts</a></li>
+                    </ul>
                 </div>
             </div>
+            
         </section>
         <!--================End Banner Area =================-->
 

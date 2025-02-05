@@ -74,6 +74,11 @@
                 <div class="banner_text_inner">
                     <h4>Formulaire d'inscription</h4>
                     <h5>Un formulaire pour valider ta présence !</h5>
+
+                    <ul>
+                        <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Accueil</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Formulaire</a></li>
+                    </ul>
                 </div>
             </div>
         </section>
