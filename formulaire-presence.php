@@ -123,8 +123,7 @@
                                 } 
                             ?>
                             	  <div class="static_text2">
-                                    <h3>Confirme ta présence !</h3>
-                                    <p>Partageras-tu ce moment de joie avec nous ?</p>
+                                    <h3>Partageras-tu ce moment de joie avec nous ?</h3>
 
                                 </div>
                                 <div class="separation"></div>
