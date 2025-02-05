@@ -146,7 +146,7 @@
                                         <p>6 Chemin du Bout Large,<br />  78540 Vernouillet, France</p>
                                     </div>
                                     <div class="contact_d_list_item">
-                                        <p>16h00-5h00 Samedi 6 Octobre</p>
+                                        <p>Vendredi 28 Mars 2025</p>
                                     </div>
                                 </div>
                             </div>
