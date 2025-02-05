@@ -153,18 +153,18 @@
 								  </div>
 								  <fieldset class="form-group">
 								    <div class="row">
-								      <legend class="col-form-label col-sm-2 pt-0">Alors</legend>
+								      <legend class="col-form-label col-sm-2 pt-0">Je</legend>
 								      <div class="col-sm-10">
 								        <div class="form-check">
 								          <input class="form-check-input" type="radio" name="present" id="present_yes" value="oui" checked>
 								          <label class="form-check-label" for="present_yes">
-								            Je serai présent(e)
+								           serai présent(e)
 								          </label>
 								        </div>
 								        <div class="form-check">
 								          <input class="form-check-input" type="radio" name="present" id="present_no" value="non">
 								          <label class="form-check-label" for="present_no">
-								            Je ne pourrai pas être là
+								           ne pourrai pas être là
 								          </label>
 								        </div>
 
@@ -200,7 +200,7 @@
 								  </fieldset>
 
                                   <div class="form-group row" id="nb_people">
-                                      <label for="example-number-input" class="col-2 col-form-label">Nombre de personnes (même groupe/famille)</label>
+                                      <label for="example-number-input" class="col-2 col-form-label">Nombre de personnes <strong>(même groupe/famille)</strong></label>
                                       <div class="col-10">
                                         <input class="form-control" name="nb_personnes" type="number" min="0" id="example-number-input">
                                       </div>
