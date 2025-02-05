@@ -78,7 +78,7 @@
                     <ul>
                         <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Accueil</a></li>
                         <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Contacts</a></li>
-                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Contacts</a></li>
+                        <li><a href="#"><i class="fa fa-angle-mobile" aria-hidden="true"></i></a></li>
                     </ul>
                 </div>
             </div>
