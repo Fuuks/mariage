@@ -79,7 +79,7 @@
                     <ul>
                         <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Accueil</a></li>
                         <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Formulaire</a></li>
-                        <li><a href="#"><i class="fa fa-fa-newspaper-o" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-newspaper-o" aria-hidden="true"></i></a></li>
 
                     </ul>
                 </div>
