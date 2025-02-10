@@ -259,7 +259,7 @@ i:before {
 .main_menu_area .navbar .navbar-nav li a {
   padding: 0px;
   line-height: 99px;
-  color:#2bc0a4;;
+  color:rosybrown;
   font-size: 14px;
   font-weight: 500;
   -webkit-transition: all 400ms linear 0s;
@@ -272,7 +272,7 @@ i:before {
 }
 
 .main_menu_area .navbar .navbar-nav li:hover a, .main_menu_area .navbar .navbar-nav li.active a {
-  color: rosybrown;
+  color: #2bc0a4;
 }
 
 @media (min-width: 992px) {
