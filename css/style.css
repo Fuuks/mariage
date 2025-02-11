@@ -272,7 +272,7 @@ i:before {
 }
 
 .main_menu_area .navbar .navbar-nav li:hover a, .main_menu_area .navbar .navbar-nav li.active a {
-  color: #141526;
+  color: white;
 }
 
 @media (min-width: 992px) {
