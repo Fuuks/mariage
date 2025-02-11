@@ -73,30 +73,26 @@
         <section class="banner_area">
             <div class="container">
                 <div class="banner_text_inner">
-                    <h4>Contactez nous</h4>
-                    <h5>Si vous avez des questions sur l'organisation contactez nous</h5>
+                    <h4>Ma page d'administrateur</h4>
+                    <h5>Cette page permet de suivre en temps réel la liste des inscrits</h5>
                     <br>
-                    <ul>
-                        <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Accueil</a></li>
-                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Contacts</a></li>
-                        <li><a href="#"><i class="fa fa-address-book" aria-hidden="true"></i></a></li>
-                    </ul>
+                    
                 </div>
             </div>
             
         </section>
         <!--================End Banner Area =================-->
 
-        <!--================Contact Us Area =================-->
-        <section class="contact_us_area">
+        <!--================Admin Area =================-->
+        <div style="margin-bottom: 3%;">
             
-        <h1>Liste des Personnes</h1>
+        <h1>Liste des invités</h1>
 
         <?php
 
 
 try {
-    $host ="mysql-cris-christy-milalu.alwaysdata.net;dbname=cris-christy-milalu_test";
+    $host ="mysql:host=mysql-cris-christy-milalu.alwaysdata.net;dbname=cris-christy-milalu_test";
     $user = "396001_user";
     
     $passwd = "";
@@ -117,15 +113,15 @@ $resultats = $req->fetchAll(PDO::FETCH_ASSOC);
 
 ?>
 
-<table>
+<table class="table">
     <thead>
         <tr>
-            <th>Nom</th>
-            <th>Prénom</th>
-            <th>Portable</th>
-            <th>Présence</th>
-            <th>Horaire</th>
-            <th>Nombre de Personnes</th>
+            <th scope="col">Nom</th>
+            <th scope="col">Prénom</th>
+            <th scope="col">Portable</th>
+            <th scope="col">Présent</th>
+            <th scope="col">Horaire</th>
+            <th scope="col">Nombre de Personnes</th>
         </tr>
     </thead>
     <tbody>
@@ -134,15 +130,15 @@ $resultats = $req->fetchAll(PDO::FETCH_ASSOC);
                 <td><?= htmlspecialchars($personne["nom"]) ?></td>
                 <td><?= htmlspecialchars($personne["prenom"]) ?></td>
                 <td><?= htmlspecialchars($personne["portable"]) ?></td>
-                <td><?= htmlspecialchars($personne["presence"]) ?></td>
+                <td><?= htmlspecialchars($personne["present"]) ?></td>
                 <td><?= htmlspecialchars($personne["horaire"]) ?></td>
                 <td><?= htmlspecialchars($personne["nb_personnes"]) ?></td>
             </tr>
         <?php endforeach; ?>
     </tbody>
 </table>
-        </section>
-        <!--================End Contact Us Area =================-->
+        </div>
+        <!--================End Admin Area =================-->
         <!--================Footer Area =================-->
         <footer class="footer_area">
             <div class="footer_widgets_area">

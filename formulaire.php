@@ -2,7 +2,7 @@
 
 
 	try {
-		$host ="mysql-cris-christy-milalu.alwaysdata.net;dbname=cris-christy-milalu_test";
+		$host ="mysql:host=mysql-cris-christy-milalu.alwaysdata.net;dbname=cris-christy-milalu_test";
 		$user = "396001_user";
 		
 		$passwd = "";
