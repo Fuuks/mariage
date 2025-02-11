@@ -108,7 +108,7 @@ try {
 }
 
 
-$req = $conn->prepare("SELECT nom, prenom, portable, presence, horaire, nombre_personnes FROM inscription";);
+$req = $conn->prepare("SELECT nom, prenom, portable, presence, horaire, nb_personnes FROM inscription";);
 $req->execute();
 
 // Récupération des résultats sous forme de tableau associatif
