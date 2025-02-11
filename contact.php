@@ -11,7 +11,7 @@
 
         <!-- Icon css link -->
         <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="https://fonts.cdnfonts.com/css/blacksword" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/giga-sans" rel="stylesheet">
         <link href="vendors/elegant-icon/style.css" rel="stylesheet">
         <link href="vendors/themify-icon/themify-icons.css" rel="stylesheet">
         <!-- Bootstrap -->
