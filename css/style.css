@@ -97,7 +97,7 @@ a:hover, a:focus {
 body {
   line-height: 26px;
   font-size: 14px;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
 }
 
 body, p, h1, h2, h3, h4, h5, h6 {
@@ -154,7 +154,7 @@ i:before {
 .main_title h2 {
   font-size: 40px;
   line-height: 48px;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   color: #232d37;
   font-weight: 500;
 }
@@ -162,7 +162,7 @@ i:before {
 .main_title p {
   font-size: 16px;
   color: #51545f;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   line-height: 26px;
   padding-top: 15px;
 }
@@ -175,14 +175,14 @@ i:before {
 
 .center_title h2 {
   font-size: 40px;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   font-weight: 500;
 }
 
 .center_title p {
   font-size: 16px;
   color: #fff;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   line-height: 26px;
   padding-top: 10px;
 }
@@ -194,7 +194,7 @@ i:before {
 
 .b_center_title h2 {
   font-size: 40px;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   font-weight: 500;
   color: #232d37;
 }
@@ -202,7 +202,7 @@ i:before {
 .b_center_title p {
   font-size: 16px;
   color: #fff;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   line-height: 26px;
   padding-top: 10px;
   color: #51545f;
@@ -306,7 +306,7 @@ i:before {
 .main_menu_area .navbar .navbar-nav li.submenu .dropdown-menu li a {
   padding: 0px 25px;
   line-height: 50px;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   font-weight: 500;
   font-size: 14px;
   text-shadow: none;
@@ -417,7 +417,7 @@ i:before {
   box-shadow: none;
   font-size: 36px;
   color: #b5aec4;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   line-height: 98px;
   font-weight: normal;
 }
@@ -425,7 +425,7 @@ i:before {
 .search_area .search_inner input.placeholder {
   font-size: 36px;
   color: #b5aec4;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   line-height: 98px;
   font-weight: normal;
 }
@@ -433,7 +433,7 @@ i:before {
 .search_area .search_inner input:-moz-placeholder {
   font-size: 36px;
   color: #b5aec4;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   line-height: 98px;
   font-weight: normal;
 }
@@ -441,7 +441,7 @@ i:before {
 .search_area .search_inner input::-moz-placeholder {
   font-size: 36px;
   color: #b5aec4;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   line-height: 98px;
   font-weight: normal;
 }
@@ -449,7 +449,7 @@ i:before {
 .search_area .search_inner input::-webkit-input-placeholder {
   font-size: 36px;
   color: #b5aec4;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   line-height: 98px;
   font-weight: normal;
 }
@@ -503,7 +503,7 @@ i:before {
   color: #fff;
   font-size: 48px;
   font-weight: 500;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   padding-bottom: 10px;
 }
 
@@ -534,7 +534,7 @@ i:before {
 .banner_text_inner h5 {
   font-size: 18px;
   color: #fff;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
 }
 
 /* End Banner Area css
@@ -599,7 +599,7 @@ i:before {
 .c_box_item h4 {
   font-size: 20px;
   color: #232d37;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   font-weight: 500;
   line-height: 36px;
   padding-bottom: 10px;
@@ -621,7 +621,7 @@ i:before {
   font-size: 14px;
   line-height: 26px;
   color: #51545f;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
 }
 
 .d_feature_text .main_title {
@@ -631,7 +631,7 @@ i:before {
 .d_feature_text p {
   font-size: 14px;
   color: #51545f;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   line-height: 26px;
   padding-bottom: 12px;
 }
@@ -726,7 +726,7 @@ i:before {
 
 .our_skill_inner .single_skill h3 {
   color: #232d37;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   font-weight: 500;
   font-size: 14px;
   padding-bottom: 6px;
@@ -754,7 +754,7 @@ i:before {
   top: -25px;
   color: #232d37;
   font-size: 14px;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   font-weight: 500;
 }
 
@@ -800,7 +800,7 @@ i:before {
   width: 160px;
   line-height: 48px;
   color: #232d37;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   font-weight: 600;
   font-size: 13px;
   text-transform: uppercase;
@@ -855,7 +855,7 @@ i:before {
   -o-transition: all 400ms ease-out;
   transition: all 400ms ease-out;
   font-size: 13px;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   font-weight: 600;
   position: relative;
   z-index: 3;
@@ -894,7 +894,7 @@ i:before {
 .bg_btn {
   font-size: 13px;
   text-transform: uppercase;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   font-weight: 600;
   color: #fff;
   text-align: center;
@@ -937,7 +937,7 @@ i:before {
 .more_btn {
   color: 2bc0a4;
   font-size: 14px;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   text-decoration: underline;
   line-height: 26px;
   -webkit-transition: all 400ms linear 0s;
@@ -953,7 +953,7 @@ i:before {
 .submit_btn {
   font-size: 13px;
   text-transform: uppercase;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   font-weight: 600;
   color: #fff;
   text-align: center;
@@ -995,7 +995,7 @@ i:before {
   width: 165px;
   line-height: 46px;
   color: #232d37;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   font-weight: 600;
   font-size: 13px;
   text-transform: uppercase;
@@ -1080,7 +1080,7 @@ i:before {
 
 .service_item h4 {
   font-size: 20px;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   font-weight: 500;
   padding: 18px 0px 12px 0px;
 }
@@ -1088,7 +1088,7 @@ i:before {
 .service_item p {
   font-size: 14px;
   line-height: 26px;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   max-width: 360px;
   margin: auto;
 }
@@ -1124,7 +1124,7 @@ i:before {
   font-size: 18px;
   color: #51545f;
   line-height: 30px;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   font-weight: 400;
   padding: 35px 0px 20px 0px;
 }
@@ -1132,14 +1132,14 @@ i:before {
 .testimonials_slider .item .media .media-body h4 {
   font-size: 14px;
   color: #b5aec4;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   font-weight: 400;
 }
 
 .testimonials_slider .item .media .media-body h4 a {
   font-size: 16px;
   color: #232d37;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   font-weight: 500;
 }
 
@@ -1204,7 +1204,7 @@ i:before {
 .l_news_item .l_news_content h4 {
   font-size: 18px;
   color: #232d37;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   font-weight: 500;
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
@@ -1219,7 +1219,7 @@ i:before {
   font-size: 14px;
   line-height: 26px;
   color: #51545f;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   font-weight: 400;
   padding: 15px 0px 10px 0px;
 }
@@ -1291,7 +1291,7 @@ i:before {
   font-size: 16px;
   line-height: 26px;
   color: #51545f;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
                                                 
 }
 
@@ -1302,7 +1302,7 @@ i:before {
 .static_text2 h3 {
   font-size: 24px;
   color: #1e1e27;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   font-weight: 500;
 }
 
@@ -1310,7 +1310,7 @@ i:before {
   font-size: 16px;
   line-height: 26px;
   color: #51545f;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   padding-top: 13px;
 }
 
@@ -1333,20 +1333,20 @@ i:before {
   font-size: 18px;
   line-height: 26px;
   color: #1e1e27;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
 }
 
 .media .media-body h5 {
   font-size: 14px;
   color: #b5aec4;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   padding-top: 15px;
 }
 
 .media .media-body h5 a {
   font-size: 16px;
   color: #232d37;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   font-weight: 500;
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
@@ -1372,7 +1372,7 @@ i:before {
 .r_w_title h3 {
   font-size: 22px;
   color: #1e1e27;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   font-weight: 500;
 }
 
@@ -1385,7 +1385,7 @@ i:before {
 .r_news_widget .news_inner .news_item h4 {
   font-size: 16px;
   line-height: 26px;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   font-weight: 500;
   color: #1e1e27;
   padding-bottom: 7px;
@@ -1401,7 +1401,7 @@ i:before {
 .r_news_widget .news_inner .news_item h6 {
   font-size: 14px;
   color: #b5aec4;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
 }
 
 .r_news_widget .news_inner .news_item:last-child {
@@ -1415,7 +1415,7 @@ i:before {
 .r_cat_widget ul li a {
   font-size: 16px;
   color: #1e1e27;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
   transition: all 400ms linear 0s;
@@ -1461,7 +1461,7 @@ i:before {
 .r_tag_widget ul li a {
   font-size: 12px;
   color: #51545f;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   background: #ebebeb;
   display: inline-block;
   padding: 0px 20px;
@@ -1512,14 +1512,14 @@ i:before {
 .contact_text .contact_d_list .contact_d_list_item a {
   font-size: 16px;
   color: #51545f;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   display: block;
 }
 
 .contact_text .contact_d_list .contact_d_list_item p {
   font-size: 16px;
   color: #51545f;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   display: block;
   line-height: 24px;
 }
@@ -1565,31 +1565,31 @@ i:before {
   padding: 0px 20px;
   font-size: 16px;
   color: #868e96;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
 }
 
 .contact_us_form .form-group input.placeholder {
   font-size: 16px;
   color: #b5aec4;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
 }
 
 .contact_us_form .form-group input:-moz-placeholder {
   font-size: 16px;
   color: #b5aec4;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
 }
 
 .contact_us_form .form-group input::-moz-placeholder {
   font-size: 16px;
   color: #b5aec4;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
 }
 
 .contact_us_form .form-group input::-webkit-input-placeholder {
   font-size: 16px;
   color: #b5aec4;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
 }
 
 .contact_us_form .form-group input:focus {
@@ -1607,32 +1607,32 @@ i:before {
   padding: 15px 20px;
   font-size: 16px;
   color: #7f7f7f;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   resize: none;
 }
 
 .contact_us_form .form-group textarea.placeholder {
   font-size: 16px;
   color: #b5aec4;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
 }
 
 .contact_us_form .form-group textarea:-moz-placeholder {
   font-size: 16px;
   color: #b5aec4;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
 }
 
 .contact_us_form .form-group textarea::-moz-placeholder {
   font-size: 16px;
   color: #b5aec4;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
 }
 
 .contact_us_form .form-group textarea::-webkit-input-placeholder {
   font-size: 16px;
   color: #b5aec4;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
 }
 
 .contact_us_form .form-group textarea:focus {
@@ -1818,7 +1818,7 @@ i:before {
 
 .f_w_title h3 {
   color: #fff;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   font-weight: 600;
   font-size: 16px;
 }
@@ -1828,7 +1828,7 @@ i:before {
   line-height: 26px;
   color: #b5aec4;
   font-weight: 300;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   padding-bottom: 20px;
 }
 
@@ -1842,32 +1842,32 @@ i:before {
   border-radius: 3px;
   font-size: 12px;
   color: #b5aec4;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   padding: 0px 15px;
 }
 
 .subscribe_widget .input-group input.placeholder {
   font-size: 12px;
   color: #b5aec4;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
 }
 
 .subscribe_widget .input-group input:-moz-placeholder {
   font-size: 12px;
   color: #b5aec4;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
 }
 
 .subscribe_widget .input-group input::-moz-placeholder {
   font-size: 12px;
   color: #b5aec4;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
 }
 
 .subscribe_widget .input-group input::-webkit-input-placeholder {
   font-size: 12px;
   color: #b5aec4;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
 }
 
 .subscribe_widget ul {
@@ -1903,7 +1903,7 @@ i:before {
   font-size: 14px;
   line-height: 26px;
   color: #b5aec4;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
 }
 
 .twitter_widget .tweets_feed ul .owl-item .tw_content .tweet_text i {
@@ -1915,7 +1915,7 @@ i:before {
   font-size: 14px;
   line-height: 26px;
   color: #b5aec4;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
   transition: all 400ms linear 0s;
@@ -1929,7 +1929,7 @@ i:before {
   font-size: 14px;
   line-height: 26px;
   color: #b5aec4;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   padding-top: 15px;
 }
 
@@ -1937,7 +1937,7 @@ i:before {
   font-size: 14px;
   line-height: 26px;
   color: #2bc0a4;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
 }
 
 .categories_widget {
@@ -1954,7 +1954,7 @@ i:before {
   position: relative;
   font-size: 14px;
   color: #b5aec4;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   line-height: 36px;
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
@@ -1990,7 +1990,7 @@ i:before {
 .contact_widget a, .contact_widget p, .contact_widget h6 {
   font-size: 14px;
   color: #b5aec4;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
   transition: all 400ms linear 0s;
@@ -2012,7 +2012,7 @@ i:before {
 .copy_right_area .float-md-left h5 {
   color: #51545f;
   font-size: 14px;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   line-height: 50px;
 }
 
@@ -2022,7 +2022,7 @@ i:before {
   transition: all 400ms linear 0s;
   color: #51545f;
   font-size: 14px;
-  font-family: 'Balqis', sans-serif;
+  font-family: 'Giga Sans', sans-serif;
   line-height: 50px;
 }
 
