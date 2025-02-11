@@ -144,7 +144,7 @@
                             <div class="contact_text">
                                 <div class="main_title">
                                     <h2>Contactez nous</h2>
-                                    <p>En cas de question sur l'organisation du mariage n'hésitez pas à nous contacter par mail</p>
+                                    <p>En cas de question concernant l'organisation du mariage, n'hésitez pas à nous contacter par mail.</p>
                                 </div>
                                 <div class="contact_d_list">
                                     <div class="contact_d_list_item">
