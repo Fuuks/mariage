@@ -112,7 +112,7 @@ $req = $conn->prepare("SELECT nom, prenom, portable, presence, horaire, nb_perso
 $req->execute();
 
 // Récupération des résultats sous forme de tableau associatif
-$resultats = $$req->fetchAll(PDO::FETCH_ASSOC);
+$resultats = $req->fetchAll(PDO::FETCH_ASSOC);
 
 
 ?>
