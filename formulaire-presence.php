@@ -229,15 +229,7 @@
         <!--================End Banner Area =================-->
 
         <!--================Static Area =================-->
-        <?php 
-        
-        $present = null;
-
-        if($present=='null'){
-
-        }else{
-
-        ?>
+        <!--  
               <section class="banner_area">
             <div class="container">
                 <div class="banner_text_inner">
@@ -246,7 +238,7 @@
                 </div>
             </div>
         </section>
-        <?php } ?>
+                              -->
 
         <!--================End Static Area =================-->
         <!--================Footer Area =================-->
