@@ -92,8 +92,8 @@
 
 
 try {
-    $host ="mysql:host=mysql-cris-christy-milalu.alwaysdata.net;dbname=cris-christy-milalu_test";
-    $user = "396001_user";
+    $host ="mysql:host=mysql-mariagedecrisetchristy.alwaysdata.net;dbname=mariagedecrisetchristy_db";
+		$user = "399475_user_root";
     
     $passwd = "";
 
