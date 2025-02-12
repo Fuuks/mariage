@@ -208,7 +208,7 @@
 								  </fieldset>
 
                                   <div class="form-group row" id="nb_people">
-                                      <label for="example-number-input" class="col-2 col-form-label">Nombre de personnes <strong>(même groupe/famille)</strong></label>
+                                      <label for="example-number-input" class="col-2 col-form-label">Nombre de personnes accompagnants <strong>(même groupe/famille)</strong></label>
                                       <div class="col-10">
                                         <input class="form-control" name="nb_personnes" type="number" min="0" id="example-number-input">
                                       </div>
