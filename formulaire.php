@@ -17,15 +17,15 @@
 	$prenom = $_POST['prenom'];
     $portable =  $_POST['portable'];
     $present = $_POST['present'];
-    $horaire = $_POST['horaire'];
-	$nb_personnes = $_POST['nb_personnes'];
 
 	if($present == "oui"){
-		$req = $conn->prepare('INSERT INTO inscription VALUES (?, ?, ?, ?, ?,?)');
+		$horaire = $_POST['horaire'];
+		$nb_personnes = $_POST['nb_personnes'];
+		$req = $conn->prepare('INSERT INTO inscription (nom, prenom, portable, present, horaire, nb_personnes) VALUES (?, ?, ?, ?, ?,?)');
 		$req->execute(array($nom,$prenom,$portable,$present,$horaire,$nb_personnes));
 
 	}else{
-		$req = $conn->prepare('INSERT INTO inscription VALUES (?, ?, ?, ?)');
+		$req = $conn->prepare('INSERT INTO inscription (nom, prenom, portable, present) VALUES (?, ?, ?, ?)');
 		$req->execute(array($nom,$prenom,$portable,$present));	
 	}
 

@@ -84,9 +84,9 @@
         <!--================End Banner Area =================-->
 
         <!--================Admin Area =================-->
-        <div style="margin-bottom: 3%;">
+        <div class="container">
             
-        <h1>Liste des invités</h1>
+        <h1 style="margin-bottom: 3%; margin-top: 3%">Liste des invités</h1>
 
         <?php
 
@@ -110,6 +110,16 @@ $req->execute();
 // Récupération des résultats sous forme de tableau associatif
 $resultats = $req->fetchAll(PDO::FETCH_ASSOC);
 
+// Calcul du nombre total de personnes
+$totalPersonnes =0;
+$nbPresent = 0;
+foreach ($resultats as $ligne) {
+    $totalPersonnes += $ligne['nb_personnes'];
+    if($ligne["present"] == "oui"){
+        $nbPresent +=1;
+    }
+}
+
 
 ?>
 
@@ -131,10 +141,11 @@ $resultats = $req->fetchAll(PDO::FETCH_ASSOC);
                 <td><?= htmlspecialchars($personne["prenom"]) ?></td>
                 <td><?= htmlspecialchars($personne["portable"]) ?></td>
                 <td><?= htmlspecialchars($personne["present"]) ?></td>
-                <td><?= htmlspecialchars($personne["horaire"]) ?></td>
-                <td><?= htmlspecialchars($personne["nb_personnes"]) ?></td>
+                <td><?php if($personne["present"] =="oui"){ echo  htmlspecialchars($personne["horaire"]); }else{ echo "//"; } ?> </td>
+                <td><?php if($personne["present"] =="oui" && $personne["nb_personnes"] !=NULL ){ echo $personne["nb_personnes"]; }else{ echo "0"; }  ?> </td>
             </tr>
         <?php endforeach; ?>
+        <tr class="table-active"> <td colspan="5"><strong>Nombre total de personnes</strong></td> <td> <?= $totalPersonnes+$nbPresent ?></p> </tr>
     </tbody>
 </table>
         </div>
